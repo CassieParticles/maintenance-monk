@@ -62,6 +62,16 @@ namespace GameObjects.Tasks
                 _parts[_currentPartIndex].FinishPart();
                 _parts[_currentPartIndex].gameObject.SetActive(false);
             }
+            CleanupTask();
+        }
+
+        //Clean up the task
+        public void CleanupTask()
+        {
+            foreach (Part part in _parts)
+            {
+                part.CleanupPart();
+            }
             _currentPartIndex = -1;
         }
 
