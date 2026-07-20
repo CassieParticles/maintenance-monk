@@ -20,6 +20,11 @@ namespace GameObjects.Tasks.Parts
             Debug.Log(gameObject.name + " finished");
         }
 
+        public override void CleanupPart()
+        {
+            
+        }
+
         public override float FinalScore()
         {
             if (_timer < 3)
