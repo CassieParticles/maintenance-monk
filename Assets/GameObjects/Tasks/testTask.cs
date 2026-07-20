@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace GameObjects.Tasks
 {
+    //TESTING SCRIPT, IMMEDIATELY INITIALIZE THEN START THE TASK
     public class testTask : MonoBehaviour
     {
         private Task _task;

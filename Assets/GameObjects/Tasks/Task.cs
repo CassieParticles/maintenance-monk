@@ -9,10 +9,11 @@ namespace GameObjects.Tasks
     {
         //List of all parts for the task
         private Part[] _parts;
-
+        
         private int _currentPartIndex;
-
+        
         private float _cumulativeScore;
+        
 
         //Return -1 when score is under play, return the cumulative score otherwise
         public float Score
@@ -32,6 +33,7 @@ namespace GameObjects.Tasks
             _parts = GetComponentsInChildren<Part>();
         }
 
+        //Call upon creation of the task, initialized everything
         public void InitTask()
         {
             foreach (Part part in _parts)
@@ -43,6 +45,7 @@ namespace GameObjects.Tasks
             _currentPartIndex = -1;
         }
 
+        //Start the task, starys playing
         public void StartTask()
         {
             _currentPartIndex = 0;
@@ -50,9 +53,10 @@ namespace GameObjects.Tasks
             _parts[0].StartPart();
         }
         
+        //Finish task, player has either completed or exited the task
         public void FinishTask()
         {
-            //If finishing taks midway, reset part
+            //If finishing tasks midway, reset part
             if (_currentPartIndex < _parts.Length)
             {
                 _parts[_currentPartIndex].FinishPart();
@@ -76,11 +80,11 @@ namespace GameObjects.Tasks
             }
             //Task must be complete, log score, then start next part
             _cumulativeScore += score;
-            //TODO: Enable and disable the game objects the parts are attached to
             
             _parts[_currentPartIndex].FinishPart();
             _parts[_currentPartIndex].gameObject.SetActive(false);
             _currentPartIndex++;
+            
             //If there is a next part, start that then return
             if (_currentPartIndex < _parts.Length)
             {
