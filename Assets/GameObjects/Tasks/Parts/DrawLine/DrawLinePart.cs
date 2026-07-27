@@ -55,6 +55,12 @@ namespace GameObjects.Tasks.Parts.DrawLine
                 collider.isTrigger = true;
                 collider.SetPath(0,points);
                 
+                obj.AddComponent<ColliderMessage>();
+                
+                //Add rigid body so OnTriggerEnter can be called
+                Rigidbody2D rb = obj.AddComponent<Rigidbody2D>();
+                rb.bodyType = RigidbodyType2D.Kinematic;
+                
                 collider.gameObject.SetActive(false);
                 _colliders.Add(collider);
             }
