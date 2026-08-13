@@ -103,10 +103,12 @@ namespace GameObjects.Tasks.Parts.DrawLine
                 _currentLine++;
                 //TODO: Add final victory check
                 return;
+                
             }
 
-            if (progress < 0.0f)
+            if (progress < -0.1f)
             {
+                //TODO: Fix bug where lines at sharp angles have issues changing more permanently
                 if (_currentLine > 0)
                 {
                     _currentLine--;
