@@ -136,6 +136,8 @@ namespace GameObjects.Tasks.Parts.DrawLine
         public override void CleanupPart()
         {
             Destroy(_cursor.gameObject);
+            
+            Destroy(_texture.gameObject);
         }
         
         public override float FinalScore()

@@ -49,14 +49,21 @@ namespace GameObjects.Tasks.Parts.DrawLine
                     {
                         continue;
                     }
+                    
 
                     //Get position on texture
                     Vector2Int pixelPosition = new Vector2Int(x, y);
                     pixelPosition.x += (int)(position.x * 100);
                     pixelPosition.y += (int)(position.y * 100);
                     
-                    pixelPosition.x -= _texture.width / 2;
-                    pixelPosition.y -= _texture.height / 2;
+                    pixelPosition.x += _texture.width / 2;
+                    pixelPosition.y += _texture.height / 2;
+
+                    if (pixelPosition.x < 0 || pixelPosition.y < 0 || pixelPosition.x >= _texture.width ||
+                        pixelPosition.y >= _texture.height)
+                    {
+                        continue;
+                    }
                     
                     _texture.SetPixel(pixelPosition.x,pixelPosition.y,color);
                 }
