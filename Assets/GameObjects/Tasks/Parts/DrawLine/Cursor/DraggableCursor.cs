@@ -2,10 +2,10 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace GameObjects.Minigame.MinigameParts.DragLines
+namespace GameObjects.Tasks.Parts.DrawLine.Cursor
 {
     [RequireComponent(typeof(PlayerInput))]
-    public class Cursor : MonoBehaviour
+    public class DraggableCursor : MonoBehaviour
     {
         private PlayerInput _playerInput;
         

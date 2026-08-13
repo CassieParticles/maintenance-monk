@@ -1,15 +1,16 @@
 using System;
+using GameObjects.Tasks.Parts.DrawLine.Cursor;
 using UnityEngine;
 
 namespace GameObjects.Minigame.MinigameParts.DragLines
 {
     public class NewMonoBehaviourScript : MonoBehaviour
     {
-        private Cursor _parentCursor;
+        private DraggableCursor _parentCursor;
         
         private void Awake()
         {
-            _parentCursor = GetComponentInParent<Cursor>();
+            _parentCursor = GetComponentInParent<DraggableCursor>();
         }
 
         private void OnMouseDown()
