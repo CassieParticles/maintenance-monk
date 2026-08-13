@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
+using GameObjects.Tasks.Parts.DrawLine.Cursor;
 using UnityEngine;
 
 namespace GameObjects.Tasks.Parts.DrawLine
@@ -8,11 +10,20 @@ namespace GameObjects.Tasks.Parts.DrawLine
     {
         [SerializeField] private float distance;
         [NonSerialized] public float DifficultyScalar = 1.0f;
+
+        [SerializeField] private DraggableCursor cursorPrefab;
+        private DraggableCursor _cursor;
+
+        [SerializeField] private int scoreChecks = 100;
         
         //Structure information
         private List<Vector2> _points;
         private List<Line> _lines;
-        private List<PolygonCollider2D> _colliders;
+        
+        //While in play
+        private int _currentLine;
+        private float _scoreSum;
+        private int _lastCheckedValue;
         
         public override void InitPart()
         {
@@ -30,46 +41,62 @@ namespace GameObjects.Tasks.Parts.DrawLine
             {
                 _lines.Add(new Line(_points[i],_points[i + 1]));
             }
+
+            _currentLine = -1;
+
+            //Create the cursor object for the player
+            _cursor = Instantiate(cursorPrefab);
+            _cursor.gameObject.transform.position = _points[0];
+            _cursor.gameObject.SetActive(false);
             
-            //Generate the colliders
-            _colliders = new List<PolygonCollider2D>();
-            foreach (Line line in _lines)
-            {
-                Vector2 normal = new Vector2(-line.DirectionNorm.y, line.DirectionNorm.x);
-                
-                GameObject obj = new GameObject("Collider");
-                obj.transform.position = transform.position;
-                obj.transform.parent = transform;
-                
-                Vector2[] points = new Vector2[]
-                {
-                    line.A + normal * distance * DifficultyScalar,
-                    line.B + normal * distance * DifficultyScalar,
-                    line.B + line.DirectionNorm * distance * DifficultyScalar,
-                    line.B - normal * distance * DifficultyScalar,
-                    line.A - normal * distance * DifficultyScalar,
-                    line.A - line.DirectionNorm * distance * DifficultyScalar,
-                };
-                
-                PolygonCollider2D collider = obj.AddComponent<PolygonCollider2D>();
-                collider.isTrigger = true;
-                collider.SetPath(0,points);
-                
-                obj.AddComponent<ColliderMessage>();
-                
-                //Add rigid body so OnTriggerEnter can be called
-                Rigidbody2D rb = obj.AddComponent<Rigidbody2D>();
-                rb.bodyType = RigidbodyType2D.Kinematic;
-                
-                collider.gameObject.SetActive(false);
-                _colliders.Add(collider);
-            }
+            //Set up scoring check
+
+            _lastCheckedValue = 0;
         }
         
         public override void StartPart()
         {
+            _currentLine = 0;
             
+            _cursor.gameObject.SetActive(true);
         }
+
+        private void FixedUpdate()
+        {
+            if (_currentLine == -1)
+            {
+                return;
+            }
+            
+            //Get how far along the line the cursor has moved
+            float progress = _lines[_currentLine].GetIValue(_lines[_currentLine].ProjectPoint(_cursor.transform.position));
+
+            if (progress > 1.0f)
+            {
+                _currentLine++;
+                //TODO: Add final victory check
+                return;
+            }
+
+            if (progress < 0.0f)
+            {
+                if (_currentLine > 0)
+                {
+                    _currentLine--;
+                }
+                return;
+            }
+
+            //Update the scores
+            while (_currentLine * scoreChecks + progress * 100 > _lastCheckedValue)
+            {
+                float dist = _lines[_currentLine].DistanceFromLine(_cursor.transform.position);
+                _scoreSum += Mathf.Max(1 - dist / (distance * DifficultyScalar), 0);
+                _lastCheckedValue++;
+            }
+        }
+
+
         public override void FinishPart()
         {
             
@@ -77,15 +104,17 @@ namespace GameObjects.Tasks.Parts.DrawLine
         
         public override void CleanupPart()
         {
-            foreach (PolygonCollider2D col in _colliders)
-            {
-                Destroy(col.gameObject);
-            }
+            Destroy(_cursor.gameObject);
         }
         
         public override float FinalScore()
         {
-            return -1.0f;
+            if (_currentLine == _lines.Count)
+            {
+                return _scoreSum / _lastCheckedValue;
+            }
+
+            return -1;
         }
     }
 }

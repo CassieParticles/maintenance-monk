@@ -30,5 +30,11 @@ namespace GameObjects.Tasks.Parts.DrawLine
             Vector2 projectedPoint = ProjectPoint(point);
             return Vector2.Distance(A, projectedPoint);
         }
+        
+        //Get the value of i from a point on the line
+        public float GetIValue(Vector2 point)
+        {
+            return (point.x - A.x) / Direction.x;
+        }
     }
 }
