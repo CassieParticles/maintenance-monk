@@ -94,6 +94,7 @@ namespace GameObjects.Tasks.Parts.DrawLine
             {
                 return;
             }
+            _texture.Draw(_cursor.transform.position,0.1f,Color.black);
             
             //Get how far along the line the cursor has moved
             float progress = _lines[_currentLine].GetIValue(_lines[_currentLine].ProjectPoint(_cursor.transform.position));
@@ -123,6 +124,7 @@ namespace GameObjects.Tasks.Parts.DrawLine
                 _scoreSum += Mathf.Max(1 - dist / (distance * DifficultyScalar), 0);
                 _lastCheckedValue++;
             }
+            
         }
 
 
