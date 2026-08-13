@@ -25,14 +25,32 @@ namespace GameObjects.Tasks.Parts.DrawLine
         private float _scoreSum;
         private int _lastCheckedValue;
         
+        //Drawing the line the player draws
+        DrawTexture _texture;
+        
+        
         public override void InitPart()
         {
             _points = new List<Vector2>();
+            
+            //Get the bounds of the drawn line
+            Vector2 minCorner = new Vector2(float.MaxValue, float.MaxValue);
+            Vector2 maxCorner = new Vector2(float.MinValue, float.MinValue);
+            
             //Gather the vertices
             for (int i = 0; i < transform.childCount; i++)
             {
-                _points.Add(transform.GetChild(i).position);
+                Vector2 position = transform.GetChild(i).position;
+                
+                _points.Add(position);
                 transform.GetChild(i).gameObject.SetActive(false);
+                
+                //Get the bounds
+                minCorner.x = Mathf.Min(minCorner.x, position.x);
+                minCorner.y = Mathf.Min(minCorner.y, position.y);
+                
+                maxCorner.x = Mathf.Max(maxCorner.x, position.x);
+                maxCorner.y = Mathf.Max(maxCorner.y, position.y);
             }
             
             //Create the lines
@@ -47,11 +65,20 @@ namespace GameObjects.Tasks.Parts.DrawLine
             //Create the cursor object for the player
             _cursor = Instantiate(cursorPrefab);
             _cursor.gameObject.transform.position = _points[0];
-            _cursor.gameObject.SetActive(false);
+            //_cursor.gameObject.SetActive(false);
             
             //Set up scoring check
-
             _lastCheckedValue = 0;
+            
+            //Setting up the texture to draw to
+            GameObject obj = new GameObject();
+            obj.AddComponent<SpriteRenderer>();
+            _texture = obj.AddComponent<DrawTexture>();
+            
+            Vector2 centre = (minCorner + maxCorner) / 2; 
+            Vector2 size = (maxCorner - minCorner) + Vector2.one;
+            
+            _texture.InitTexture(centre, size);
         }
         
         public override void StartPart()

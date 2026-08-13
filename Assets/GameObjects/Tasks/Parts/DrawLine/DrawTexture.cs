@@ -1,0 +1,37 @@
+﻿using System;
+using UnityEngine;
+
+namespace GameObjects.Tasks.Parts.DrawLine
+{
+    [RequireComponent(typeof(SpriteRenderer))]
+    public class DrawTexture : MonoBehaviour
+    {
+        private const int _pixelsPerUnit = 100;
+        private Texture2D _texture;
+        
+        private SpriteRenderer _spriteRenderer;
+
+        private void Awake()
+        {
+            _spriteRenderer =  GetComponent<SpriteRenderer>();
+        }
+
+        //X,Y - Middle of texture, width/height - size in units
+        public void InitTexture(Vector2 centre, Vector2 size)
+        {
+            transform.position = centre;
+            _texture = new Texture2D((int)(size.x * _pixelsPerUnit), (int)(size.y * _pixelsPerUnit), TextureFormat.RGBA32, false);
+
+            for (int y = 0; y < _texture.height; y++)
+            {
+                for (int x = 0; x < _texture.width; x++)
+                {
+                    _texture.SetPixel(x,y,Color.clear);
+                }
+            }
+            _texture.Apply();
+            
+            _spriteRenderer.sprite = Sprite.Create(_texture, new Rect(0, 0, _texture.width, _texture.height), new Vector2(0.5f,0.5f));
+        }
+    }
+}
