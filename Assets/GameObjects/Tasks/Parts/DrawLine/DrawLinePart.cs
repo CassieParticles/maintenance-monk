@@ -107,6 +107,7 @@ namespace GameObjects.Tasks.Parts.DrawLine
             if (progress > 1.0f || _lastUpdateProgress > _forgivenessThreshold && _lastUpdateProgress > progress)
             {
                 _currentLine++;
+                _lastUpdateProgress = 0;
                 return;
             }
 
