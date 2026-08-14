@@ -10,10 +10,20 @@
     "Type": "User",
     "GUID": "{9EFA507F-FEE5-47F9-9659-9946586A637F}",
     "Language": "SFX",
-    "Hash": "{F42DEC9E-88B3-95E5-8531-F5C280BAD5BF}",
+    "Hash": "{AF481346-B981-FB32-2B98-63736B35B8B2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
+    "Media": [
+     {
+      "Id": "316405668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Button_Click.wav",
+      "CachePath": "82/{821D61AD-4963-CC47-56E7-73C31FB27CA4}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "1038526906",
@@ -217,8 +227,13 @@
       "GUID": "{8B4EB427-E687-4D75-9075-FC6D595E62E3}",
       "Color": "14",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.0870363",
+      "DurationMax": "1.0996671",
+      "MediaRefs": [
+       {
+        "Id": "316405668"
+       }
+      ]
      },
      {
       "Id": "3949245851",
@@ -253,6 +268,6 @@
     ]
    }
   ],
-  "FileHash": "{FE25A152-E916-4A4D-9F48-813988716F07}"
+  "FileHash": "{3C097208-9923-F7B2-787A-FD9A3D104E52}"
  }
 }

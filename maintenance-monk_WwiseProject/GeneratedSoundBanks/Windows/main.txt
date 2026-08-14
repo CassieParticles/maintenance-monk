@@ -22,3 +22,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	4051801730	UI_Page_Turn_Single			\Default Work Unit\UI_Page_Turn_Single	
 	4101012249	P_Minigame_Negative			\Default Work Unit\P_Minigame_Negative	
 
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	316405668	UI_Button_Click	.cache\82\{821D61AD-4963-CC47-56E7-73C31FB27CA4}.wem		\Containers\Default Work Unit\UI_Feedback\UI_Button_Click		210016
+

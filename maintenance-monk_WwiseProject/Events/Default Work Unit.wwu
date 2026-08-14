@@ -12,10 +12,10 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{D0C705D9-9355-47B2-A1F6-5ED303E6B687}" ShortID="1068867549">
+						<Action Name="" ID="{AA273C6D-4622-4383-8874-8B52A439733C}" ShortID="499540636">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="UI_Button_Click" ID="{A7A67091-5D61-4771-9A27-52A50A183A96}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+									<ObjectRef Name="UI_Button_Click" ID="{8E7A34AE-B156-4A2F-B7A8-0B52720069D1}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
