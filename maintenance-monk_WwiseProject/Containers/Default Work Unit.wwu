@@ -1,6 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{819EEE13-0974-44B0-A728-E4B431F2BD16}" SchemaVersion="133">
 	<Containers>
-		<WorkUnit Name="Default Work Unit" ID="{819EEE13-0974-44B0-A728-E4B431F2BD16}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{819EEE13-0974-44B0-A728-E4B431F2BD16}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{9988575B-9F3A-45D7-8153-C56DFF63AFE0}" ShortID="334031505">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="P_Scribing" ID="{85A942D1-5579-40B0-BC8E-3EB472D68EDE}" ShortID="707608540">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="P_Stitch" ID="{03E1E5B2-20B0-47E3-B2DB-9A64FC4A9A84}" ShortID="921503591">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="P_Vellum" ID="{368F5BF2-F5FA-4E24-AB82-519DB9ACFCF2}" ShortID="219404615">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="NPC" ID="{803AC54F-3F1F-4DC9-8EBE-5A18C9D5A136}" ShortID="1005175253">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="UI_Feedback" ID="{9E7B8ADC-5DB8-4B54-9A52-676624250722}" ShortID="803357662">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="UI_Button_Click" ID="{A7A67091-5D61-4771-9A27-52A50A183A96}" ShortID="1046232483">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="UI_Shop_Purchase" ID="{FD7BFEAB-56A0-4F1B-BD53-C219BE0CDBB7}" ShortID="765888711">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="UI_Page_Turn_Group" ID="{2073A943-E4DC-4214-9167-D50C02183354}" ShortID="764177372">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="UI_Page_Turn_Single" ID="{3CE6E46B-A4AB-4A45-81A0-F0E8FFA59391}" ShortID="708040772">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Informational_SFX" ID="{BEEE15CD-7895-40B6-975B-870A84B091DC}" ShortID="329067907">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Containers>
 </WwiseDocument>

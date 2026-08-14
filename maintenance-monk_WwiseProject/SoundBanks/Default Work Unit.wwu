@@ -4,7 +4,30 @@
 		<WorkUnit Name="Default Work Unit" ID="{A06BA41D-4660-48F7-828B-FE1A948E56A0}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="main" ID="{9EFA507F-FEE5-47F9-9659-9946586A637F}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="P_Vellum" ID="{D75B3482-9F9D-404E-845D-40CD01958B47}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Page_Turn_Single" ID="{086C0AF1-CF07-40D3-8317-464B7D7488E3}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="P_Scribing" ID="{B8A86356-8884-41F0-91E5-E2E4C432C2F9}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="P_Stitch" ID="{886496D2-B457-42AD-A33E-E6E7331BEFD6}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="I_Problem_List_Add" ID="{40E21DBD-CB03-4316-A4C7-4DBD396A4506}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Stop" ID="{15A7A69E-6585-4392-8D43-DAFC7B5F116D}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NPC_Enter" ID="{4068AE54-83B8-442E-AF58-79A5E17A36DB}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="I_Problem_List_Remove" ID="{1E7DC09B-F966-4480-B312-C7A2089F4C8B}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="P_Minigame_Negative" ID="{EF36A27C-368D-44C1-9E70-6F81F60D2681}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="I_Clock_Next_Stage" ID="{5123953F-B43D-44FE-9CBE-6BB56D988870}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="I_Clock_Frozen" ID="{19A5809E-3BA5-4579-B5D9-2F3155A541E0}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Shop_Purchase" ID="{E955C2F4-A551-4868-BFED-413C8E4FB388}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Page_Turn_Group" ID="{D2D02C1D-77E0-494D-9E03-383A936C0856}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NPC_Middle_Class" ID="{08B623F0-98F4-49B7-B252-AD6573C223D3}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="I_Clock_Unfrozen" ID="{5FBE5F2E-6182-4C5C-8DFD-230CE15A3442}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="P_Minigame_Positive" ID="{1E98823C-9034-4C74-A5D0-9DA57761D6DE}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NPC_Lower_Class" ID="{FBB968AD-1E94-4CBA-97BF-78231FD05071}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Start" ID="{780DA99B-CC13-4CE3-921E-EFDC69BE9B73}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Click" ID="{8B4EB427-E687-4D75-9075-FC6D595E62E3}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NPC_Upper_Class" ID="{5A9799C6-ACAB-4DDF-8A5A-76EC58137328}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="P_Sticker_Drop" ID="{154FBB5E-CB25-4E5A-ACA0-EB193170C636}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="P_Sticker_Lift" ID="{4F87F5C4-CB52-4F79-851D-8F04CB10234E}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

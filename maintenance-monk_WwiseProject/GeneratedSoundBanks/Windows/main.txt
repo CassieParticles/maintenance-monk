@@ -1,0 +1,24 @@
+Event	ID	Name			Wwise Object Path	Notes
+	148726199	NPC_Middle_Class			\Default Work Unit\NPC_Middle_Class	
+	202626413	P_Sticker_Drop			\Default Work Unit\P_Sticker_Drop	
+	1038526906	I_Clock_Frozen			\Default Work Unit\I_Clock_Frozen	
+	1664509575	UI_Button_Click			\Default Work Unit\UI_Button_Click	
+	1853520656	I_Clock_Next_Stage			\Default Work Unit\I_Clock_Next_Stage	
+	1861785578	NPC_Upper_Class			\Default Work Unit\NPC_Upper_Class	
+	2048845667	P_Vellum			\Default Work Unit\P_Vellum	
+	2052289800	UI_Shop_Purchase			\Default Work Unit\UI_Shop_Purchase	
+	2081004676	I_Problem_List_Remove			\Default Work Unit\I_Problem_List_Remove	
+	2490851117	P_Scribing			\Default Work Unit\P_Scribing	
+	2613498745	P_Sticker_Lift			\Default Work Unit\P_Sticker_Lift	
+	3139624989	I_Problem_List_Add			\Default Work Unit\I_Problem_List_Add	
+	3227181061	Music_Stop			\Default Work Unit\Music_Stop	
+	3323251731	I_Clock_Unfrozen			\Default Work Unit\I_Clock_Unfrozen	
+	3607652757	P_Minigame_Positive			\Default Work Unit\P_Minigame_Positive	
+	3646868397	P_Stitch			\Default Work Unit\P_Stitch	
+	3709676093	NPC_Enter			\Default Work Unit\NPC_Enter	
+	3725903807	Music_Start			\Default Work Unit\Music_Start	
+	3949245851	UI_Page_Turn_Group			\Default Work Unit\UI_Page_Turn_Group	
+	4023606685	NPC_Lower_Class			\Default Work Unit\NPC_Lower_Class	
+	4051801730	UI_Page_Turn_Single			\Default Work Unit\UI_Page_Turn_Single	
+	4101012249	P_Minigame_Negative			\Default Work Unit\P_Minigame_Negative	
+
