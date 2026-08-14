@@ -1,6 +1,234 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" SchemaVersion="133">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="12"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="UI_Button_Click" ID="{8B4EB427-E687-4D75-9075-FC6D595E62E3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{AA273C6D-4622-4383-8874-8B52A439733C}" ShortID="499540636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Click" ID="{D7A3C3E2-1BB2-4F08-B8AF-6FDE4B4C4C38}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Shop_Purchase" ID="{E955C2F4-A551-4868-BFED-413C8E4FB388}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{C6EB22F7-C52B-4814-B0F3-9504FDD42D02}" ShortID="183053979">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Shop_Purchase" ID="{FD7BFEAB-56A0-4F1B-BD53-C219BE0CDBB7}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Page_Turn_Single" ID="{086C0AF1-CF07-40D3-8317-464B7D7488E3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{86AD760A-EB8C-4E34-BD3C-4D2E8C691D7F}" ShortID="474262784">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Page_Turn_Single" ID="{3CE6E46B-A4AB-4A45-81A0-F0E8FFA59391}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Page_Turn_Group" ID="{D2D02C1D-77E0-494D-9E03-383A936C0856}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{C549B819-CC29-467C-BD16-FE2FF926D68B}" ShortID="638228559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Page_Turn_Group" ID="{2073A943-E4DC-4214-9167-D50C02183354}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="P_Scribing" ID="{B8A86356-8884-41F0-91E5-E2E4C432C2F9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{4A6312E2-732C-47B6-A2B1-AF083412E008}" ShortID="302138609">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_Scribing" ID="{85A942D1-5579-40B0-BC8E-3EB472D68EDE}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="P_Stitch" ID="{886496D2-B457-42AD-A33E-E6E7331BEFD6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{3465A415-79F0-4BFE-B9EC-43E8C8FDC0C4}" ShortID="120844930">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_Stitch" ID="{03E1E5B2-20B0-47E3-B2DB-9A64FC4A9A84}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="P_Vellum" ID="{D75B3482-9F9D-404E-845D-40CD01958B47}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{99A6EDAC-79D3-4C5D-9DD6-927D8AE9F439}" ShortID="590559631">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_Vellum" ID="{368F5BF2-F5FA-4E24-AB82-519DB9ACFCF2}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Start" ID="{780DA99B-CC13-4CE3-921E-EFDC69BE9B73}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="Music_Stop" ID="{15A7A69E-6585-4392-8D43-DAFC7B5F116D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="I_Problem_List_Add" ID="{40E21DBD-CB03-4316-A4C7-4DBD396A4506}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="I_Problem_List_Remove" ID="{1E7DC09B-F966-4480-B312-C7A2089F4C8B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="I_Clock_Next_Stage" ID="{5123953F-B43D-44FE-9CBE-6BB56D988870}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{4C63D07F-9B6B-4275-8B0D-D22A58E86329}" ShortID="433853458">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="I_Clock_Next_Stage" ID="{491B593B-D3AF-4981-A7F2-4B757580B492}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="I_Clock_Frozen" ID="{19A5809E-3BA5-4579-B5D9-2F3155A541E0}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{8F71209D-258C-49F2-A9E2-F66EAD303E0B}" ShortID="402388887">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="I_Clock_Frozen" ID="{3D76E203-8AEF-42CA-9F06-48AB46413606}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="I_Clock_Unfrozen" ID="{5FBE5F2E-6182-4C5C-8DFD-230CE15A3442}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{DC3AF63F-F4E8-4996-BBBF-9B25A0C80967}" ShortID="261803525">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="I_Clock_Unfrozen" ID="{EACF6CDF-CE80-44BF-BBBB-C71677DFA8D4}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NPC_Enter" ID="{4068AE54-83B8-442E-AF58-79A5E17A36DB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="NPC_Upper_Class" ID="{5A9799C6-ACAB-4DDF-8A5A-76EC58137328}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="NPC_Middle_Class" ID="{08B623F0-98F4-49B7-B252-AD6573C223D3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="NPC_Lower_Class" ID="{FBB968AD-1E94-4CBA-97BF-78231FD05071}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="P_Sticker_Lift" ID="{4F87F5C4-CB52-4F79-851D-8F04CB10234E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="P_Sticker_Drop" ID="{154FBB5E-CB25-4E5A-ACA0-EB193170C636}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="P_Minigame_Positive" ID="{1E98823C-9034-4C74-A5D0-9DA57761D6DE}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="P_Minigame_Negative" ID="{EF36A27C-368D-44C1-9E70-6F81F60D2681}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

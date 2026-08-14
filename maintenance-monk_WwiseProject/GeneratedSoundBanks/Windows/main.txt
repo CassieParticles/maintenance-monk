@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	148726199	NPC_Middle_Class			\Default Work Unit\NPC_Middle_Class	
+	202626413	P_Sticker_Drop			\Default Work Unit\P_Sticker_Drop	
+	1038526906	I_Clock_Frozen			\Default Work Unit\I_Clock_Frozen	
+	1664509575	UI_Button_Click			\Default Work Unit\UI_Button_Click	
+	1853520656	I_Clock_Next_Stage			\Default Work Unit\I_Clock_Next_Stage	
+	1861785578	NPC_Upper_Class			\Default Work Unit\NPC_Upper_Class	
+	2048845667	P_Vellum			\Default Work Unit\P_Vellum	
+	2052289800	UI_Shop_Purchase			\Default Work Unit\UI_Shop_Purchase	
+	2081004676	I_Problem_List_Remove			\Default Work Unit\I_Problem_List_Remove	
+	2490851117	P_Scribing			\Default Work Unit\P_Scribing	
+	2613498745	P_Sticker_Lift			\Default Work Unit\P_Sticker_Lift	
+	3139624989	I_Problem_List_Add			\Default Work Unit\I_Problem_List_Add	
+	3227181061	Music_Stop			\Default Work Unit\Music_Stop	
+	3323251731	I_Clock_Unfrozen			\Default Work Unit\I_Clock_Unfrozen	
+	3607652757	P_Minigame_Positive			\Default Work Unit\P_Minigame_Positive	
+	3646868397	P_Stitch			\Default Work Unit\P_Stitch	
+	3709676093	NPC_Enter			\Default Work Unit\NPC_Enter	
+	3725903807	Music_Start			\Default Work Unit\Music_Start	
+	3949245851	UI_Page_Turn_Group			\Default Work Unit\UI_Page_Turn_Group	
+	4023606685	NPC_Lower_Class			\Default Work Unit\NPC_Lower_Class	
+	4051801730	UI_Page_Turn_Single			\Default Work Unit\UI_Page_Turn_Single	
+	4101012249	P_Minigame_Negative			\Default Work Unit\P_Minigame_Negative	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	248013631	I_Clock_Next_Stage_3	.cache\A5\{A5D90ACB-4880-BF6D-C9F8-C89E1599E082}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Next_Stage\I_Clock_Next_Stage_3		31840
+	273534852	I_Clock_Unfrozen_3	.cache\1E\{1E02B3DC-3A93-41FD-445D-CB052F9F89A4}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Unfrozen\I_Clock_Unfrozen_3		215136
+	316405668	UI_Button_Click	.cache\82\{821D61AD-4963-CC47-56E7-73C31FB27CA4}.wem		\Containers\Default Work Unit\UI_Feedback\UI_Button_Click		210016
+	449653212	I_Clock_Next_Stage_2	.cache\22\{227851C7-9802-F7B6-29F8-078E2AE7B27A}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Next_Stage\I_Clock_Next_Stage_2		36192
+	514805342	I_Clock_Unfrozen_1	.cache\4A\{4A51BAF8-DF4C-252E-FB83-2CB49EA5A389}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Unfrozen\I_Clock_Unfrozen_1		180320
+	649327940	I_Clock_Unfrozen_2	.cache\19\{199FFCC4-5C9A-44C6-2520-C7BFCFC0D3F1}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Unfrozen\I_Clock_Unfrozen_2		161888
+	978734812	I_Clock_Next_Stage_1	.cache\73\{73D971AF-4976-5257-A6E7-02F66FD68E46}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Next_Stage\I_Clock_Next_Stage_1		39520
+

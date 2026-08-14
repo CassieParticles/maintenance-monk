@@ -1,6 +1,567 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{819EEE13-0974-44B0-A728-E4B431F2BD16}" SchemaVersion="133">
 	<Containers>
-		<WorkUnit Name="Default Work Unit" ID="{819EEE13-0974-44B0-A728-E4B431F2BD16}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{819EEE13-0974-44B0-A728-E4B431F2BD16}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{9988575B-9F3A-45D7-8153-C56DFF63AFE0}" ShortID="334031505">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="P_Scribing" ID="{85A942D1-5579-40B0-BC8E-3EB472D68EDE}" ShortID="707608540">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4C09F1F1-C1AA-451B-A442-70FA1A4853FF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A4CCC0E7-81A1-4F9E-8BB1-002990D32BAE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="P_Stitch" ID="{03E1E5B2-20B0-47E3-B2DB-9A64FC4A9A84}" ShortID="921503591">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7E4ABBF7-DEA2-4A80-80B3-9CCA88C162A8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{45EBEACD-9182-482B-B1C3-F7C98617B189}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="P_Vellum" ID="{368F5BF2-F5FA-4E24-AB82-519DB9ACFCF2}" ShortID="219404615">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{05E9DA35-8450-4AAA-850E-F23F70223266}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D637D74D-1A2B-4F15-878F-A7791EAE9930}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="NPC" ID="{803AC54F-3F1F-4DC9-8EBE-5A18C9D5A136}" ShortID="1005175253">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="UI_Feedback" ID="{9E7B8ADC-5DB8-4B54-9A52-676624250722}" ShortID="803357662">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="UI_Shop_Purchase" ID="{FD7BFEAB-56A0-4F1B-BD53-C219BE0CDBB7}" ShortID="765888711">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C1F42D7C-1845-4942-A80F-021E63FE8882}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C964712E-F61E-4376-B41E-F4EF77E0C16C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="UI_Page_Turn_Group" ID="{2073A943-E4DC-4214-9167-D50C02183354}" ShortID="764177372">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{487364CC-1D30-4706-A1C1-BD8AD5FB770D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{001D658A-E4FD-4495-B4A6-97A308BC4E1D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="UI_Page_Turn_Single" ID="{3CE6E46B-A4AB-4A45-81A0-F0E8FFA59391}" ShortID="708040772">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D8CD348B-07A2-4B0C-A04E-5A2D91C7BF8E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6F38EEDA-EAAB-41C5-8416-24B8FFC7B668}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<Sound Name="UI_Button_Click" ID="{D7A3C3E2-1BB2-4F08-B8AF-6FDE4B4C4C38}" ShortID="406752376">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C6D26F28-95B9-496A-8CE8-CF945CE4BDDB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{23AC83E2-8D4E-4697-B164-A819A494F521}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Button_Click" ID="{B28F2D72-C62E-462F-A6E6-72283D0BBFCD}">
+									<Language>SFX</Language>
+									<AudioFile>UI_Button_Click.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="316405668"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Button_Click" ID="{B28F2D72-C62E-462F-A6E6-72283D0BBFCD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Informational_SFX" ID="{BEEE15CD-7895-40B6-975B-870A84B091DC}" ShortID="329067907">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="I_Clock_Unfrozen" ID="{EACF6CDF-CE80-44BF-BBBB-C71677DFA8D4}" ShortID="505508813">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E580BE0D-285D-49C0-AF33-116722BE212B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2E372C3E-A6BA-4186-93F2-AB538237A6AF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="I_Clock_Unfrozen_1" ID="{36DCAFE5-4070-49FC-9266-A6642FADCE70}" ShortID="538989298">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Unfrozen_1" ID="{D9610590-1222-4B71-8B88-7872CC57EA3D}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Unfrozen_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="514805342"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Unfrozen_1" ID="{D9610590-1222-4B71-8B88-7872CC57EA3D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="I_Clock_Unfrozen_2" ID="{6C63AB5B-E8B9-4FAE-A080-4F8EBFCD7DC6}" ShortID="479148012">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Unfrozen_2" ID="{7CACCB24-B70D-415D-BDBC-437081040CF3}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Unfrozen_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="649327940"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Unfrozen_2" ID="{7CACCB24-B70D-415D-BDBC-437081040CF3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="I_Clock_Unfrozen_3" ID="{720DBA04-C797-43E9-AB3D-BF2BF3524698}" ShortID="976945955">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Unfrozen_3" ID="{D33D037C-E5E2-42D7-BD3C-2AEF0D87B198}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Unfrozen_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="273534852"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Unfrozen_3" ID="{D33D037C-E5E2-42D7-BD3C-2AEF0D87B198}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="I_Clock_Frozen" ID="{3D76E203-8AEF-42CA-9F06-48AB46413606}" ShortID="53677029">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E9992251-2034-4CB7-B01C-7CD6BE34AFEA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{356247C0-7590-4093-ADA1-1C143579B5F6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="I_Clock_Next_Stage" ID="{491B593B-D3AF-4981-A7F2-4B757580B492}" ShortID="202503569">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8DBFF031-0810-4F2C-A96B-352742932227}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A55DA9CF-1CD7-431B-B3CE-A478881B03E1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="I_Clock_Next_Stage_1" ID="{A638C068-A189-4941-B214-0D6E48B6E3CE}" ShortID="1071087874">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Next_Stage_1" ID="{0441393F-3F28-4A6E-B4B8-AACA3AF4E057}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Next_Stage_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="978734812"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Next_Stage_1" ID="{0441393F-3F28-4A6E-B4B8-AACA3AF4E057}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="I_Clock_Next_Stage_2" ID="{3C6142AD-4F97-43E2-8402-56F4E40800CB}" ShortID="935221689">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Next_Stage_2" ID="{7FAD27E5-9A78-427B-A90D-53A1EAE57236}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Next_Stage_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="449653212"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Next_Stage_2" ID="{7FAD27E5-9A78-427B-A90D-53A1EAE57236}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="I_Clock_Next_Stage_3" ID="{170F3057-C11F-4332-A98D-1585EF5960ED}" ShortID="664243880">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Next_Stage_3" ID="{0861B5CE-5F01-4CBA-A929-5C6F075D3D9E}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Next_Stage_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="248013631"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Next_Stage_3" ID="{0861B5CE-5F01-4CBA-A929-5C6F075D3D9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Containers>
 </WwiseDocument>
