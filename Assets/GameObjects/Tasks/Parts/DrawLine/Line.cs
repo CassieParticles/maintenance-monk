@@ -28,7 +28,7 @@ namespace GameObjects.Tasks.Parts.DrawLine
         public float DistanceFromLine(Vector2 point)
         {
             Vector2 projectedPoint = ProjectPoint(point);
-            return Vector2.Distance(A, projectedPoint);
+            return Vector2.Distance(point, projectedPoint);
         }
         
         //Get the value of i from a point on the line
