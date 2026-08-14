@@ -25,6 +25,10 @@ namespace GameObjects.Tasks.Parts.DrawLine
         private float _scoreSum;
         private int _lastCheckedValue;
         
+        //Forgiveness check
+        private readonly float _forgivenessThreshold = 0.9f;
+        private float _lastUpdateProgress;
+        
         //Drawing the line the player draws
         DrawTexture _texture;
         
@@ -65,7 +69,7 @@ namespace GameObjects.Tasks.Parts.DrawLine
             //Create the cursor object for the player
             _cursor = Instantiate(cursorPrefab);
             _cursor.gameObject.transform.position = _points[0];
-            //_cursor.gameObject.SetActive(false);
+            _cursor.gameObject.SetActive(false);
             
             //Set up scoring check
             _lastCheckedValue = 0;
@@ -84,6 +88,7 @@ namespace GameObjects.Tasks.Parts.DrawLine
         public override void StartPart()
         {
             _currentLine = 0;
+            _lastUpdateProgress = 0;
             
             _cursor.gameObject.SetActive(true);
         }
@@ -99,21 +104,9 @@ namespace GameObjects.Tasks.Parts.DrawLine
             //Get how far along the line the cursor has moved
             float progress = _lines[_currentLine].GetIValue(_lines[_currentLine].ProjectPoint(_cursor.transform.position));
 
-            if (progress > 1.0f)
+            if (progress > 1.0f || _lastUpdateProgress > _forgivenessThreshold && _lastUpdateProgress > progress)
             {
                 _currentLine++;
-                //TODO: Add final victory check
-                return;
-                
-            }
-
-            if (progress < -0.1f)
-            {
-                //TODO: Fix bug where lines at sharp angles have issues changing more permanently
-                if (_currentLine > 0)
-                {
-                    _currentLine--;
-                }
                 return;
             }
 
@@ -124,7 +117,8 @@ namespace GameObjects.Tasks.Parts.DrawLine
                 _scoreSum += Mathf.Max(1 - dist / (distance * DifficultyScalar), 0);
                 _lastCheckedValue++;
             }
-            
+
+            _lastUpdateProgress = progress;
         }
 
 
