@@ -140,6 +140,15 @@
 						<Property Name="Color" Type="int16" Value="19"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{4C63D07F-9B6B-4275-8B0D-D22A58E86329}" ShortID="433853458">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="I_Clock_Next_Stage" ID="{491B593B-D3AF-4981-A7F2-4B757580B492}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="I_Clock_Frozen" ID="{19A5809E-3BA5-4579-B5D9-2F3155A541E0}">
 					<PropertyList>

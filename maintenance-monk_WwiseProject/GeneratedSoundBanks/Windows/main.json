@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{9EFA507F-FEE5-47F9-9659-9946586A637F}",
     "Language": "SFX",
-    "Hash": "{DA74A49E-2420-B14F-1462-1D46AD46E8A9}",
+    "Hash": "{54BF99EE-057B-6015-677C-32D4D23DE363}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
     "Media": [
+     {
+      "Id": "248013631",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Next_Stage_3.wav",
+      "CachePath": "A5/{A5D90ACB-4880-BF6D-C9F8-C89E1599E082}.wem"
+     },
      {
       "Id": "273534852",
       "Language": "SFX",
@@ -32,6 +40,14 @@
       "CachePath": "82/{821D61AD-4963-CC47-56E7-73C31FB27CA4}.wem"
      },
      {
+      "Id": "449653212",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Next_Stage_2.wav",
+      "CachePath": "22/{227851C7-9802-F7B6-29F8-078E2AE7B27A}.wem"
+     },
+     {
       "Id": "514805342",
       "Language": "SFX",
       "Streaming": "false",
@@ -46,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "I_Clock_Unfrozen_2.wav",
       "CachePath": "19/{199FFCC4-5C9A-44C6-2520-C7BFCFC0D3F1}.wem"
+     },
+     {
+      "Id": "978734812",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Next_Stage_1.wav",
+      "CachePath": "73/{73D971AF-4976-5257-A6E7-02F66FD68E46}.wem"
      }
     ],
     "Events": [
@@ -65,10 +89,20 @@
       "ObjectPath": "\\Events\\Default Work Unit\\I_Clock_Next_Stage",
       "GUID": "{5123953F-B43D-44FE-9CBE-6BB56D988870}",
       "Color": "19",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.17891818",
+      "DurationMax": "0.22478674",
+      "MediaRefs": [
+       {
+        "Id": "248013631"
+       },
+       {
+        "Id": "449653212"
+       },
+       {
+        "Id": "978734812"
+       }
+      ]
      },
      {
       "Id": "3323251731",
@@ -301,6 +335,6 @@
     ]
    }
   ],
-  "FileHash": "{F4499278-9402-C4A8-E9AE-C670520A1E02}"
+  "FileHash": "{A0755B15-E13C-73DB-DB3B-5BC334350948}"
  }
 }
