@@ -15,7 +15,7 @@
 						<Action Name="" ID="{AA273C6D-4622-4383-8874-8B52A439733C}" ShortID="499540636">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="UI_Button_Click" ID="{8E7A34AE-B156-4A2F-B7A8-0B52720069D1}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+									<ObjectRef Name="UI_Button_Click" ID="{D7A3C3E2-1BB2-4F08-B8AF-6FDE4B4C4C38}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -146,12 +146,30 @@
 						<Property Name="Color" Type="int16" Value="19"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{8F71209D-258C-49F2-A9E2-F66EAD303E0B}" ShortID="402388887">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="I_Clock_Frozen" ID="{3D76E203-8AEF-42CA-9F06-48AB46413606}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="I_Clock_Unfrozen" ID="{5FBE5F2E-6182-4C5C-8DFD-230CE15A3442}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="19"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{DC3AF63F-F4E8-4996-BBBF-9B25A0C80967}" ShortID="261803525">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="I_Clock_Unfrozen" ID="{EACF6CDF-CE80-44BF-BBBB-C71677DFA8D4}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="NPC_Enter" ID="{4068AE54-83B8-442E-AF58-79A5E17A36DB}">
 					<PropertyList>

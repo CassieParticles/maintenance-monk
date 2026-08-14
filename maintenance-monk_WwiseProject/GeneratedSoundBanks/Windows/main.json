@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{9EFA507F-FEE5-47F9-9659-9946586A637F}",
     "Language": "SFX",
-    "Hash": "{AF481346-B981-FB32-2B98-63736B35B8B2}",
+    "Hash": "{DA74A49E-2420-B14F-1462-1D46AD46E8A9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
     "Media": [
+     {
+      "Id": "273534852",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Unfrozen_3.wav",
+      "CachePath": "1E/{1E02B3DC-3A93-41FD-445D-CB052F9F89A4}.wem"
+     },
      {
       "Id": "316405668",
       "Language": "SFX",
@@ -22,6 +30,22 @@
       "Location": "Memory",
       "ShortName": "UI_Button_Click.wav",
       "CachePath": "82/{821D61AD-4963-CC47-56E7-73C31FB27CA4}.wem"
+     },
+     {
+      "Id": "514805342",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Unfrozen_1.wav",
+      "CachePath": "4A/{4A51BAF8-DF4C-252E-FB83-2CB49EA5A389}.wem"
+     },
+     {
+      "Id": "649327940",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Unfrozen_2.wav",
+      "CachePath": "19/{199FFCC4-5C9A-44C6-2520-C7BFCFC0D3F1}.wem"
      }
     ],
     "Events": [
@@ -31,7 +55,6 @@
       "ObjectPath": "\\Events\\Default Work Unit\\I_Clock_Frozen",
       "GUID": "{19A5809E-3BA5-4579-B5D9-2F3155A541E0}",
       "Color": "19",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -53,10 +76,20 @@
       "ObjectPath": "\\Events\\Default Work Unit\\I_Clock_Unfrozen",
       "GUID": "{5FBE5F2E-6182-4C5C-8DFD-230CE15A3442}",
       "Color": "19",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.83781326",
+      "DurationMax": "1.1264881",
+      "MediaRefs": [
+       {
+        "Id": "273534852"
+       },
+       {
+        "Id": "514805342"
+       },
+       {
+        "Id": "649327940"
+       }
+      ]
      },
      {
       "Id": "3139624989",
@@ -268,6 +301,6 @@
     ]
    }
   ],
-  "FileHash": "{3C097208-9923-F7B2-787A-FD9A3D104E52}"
+  "FileHash": "{F4499278-9402-C4A8-E9AE-C670520A1E02}"
  }
 }

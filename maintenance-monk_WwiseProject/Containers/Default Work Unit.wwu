@@ -83,12 +83,12 @@
 								</Reference>
 							</ReferenceList>
 						</RandomSequenceContainer>
-						<Sound Name="UI_Button_Click" ID="{8E7A34AE-B156-4A2F-B7A8-0B52720069D1}" ShortID="475261660">
+						<Sound Name="UI_Button_Click" ID="{D7A3C3E2-1BB2-4F08-B8AF-6FDE4B4C4C38}" ShortID="406752376">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{A1C48199-4D74-4A95-AB5F-C02F75BD0B0E}">
+											<Modifier Name="" ID="{C6D26F28-95B9-496A-8CE8-CF945CE4BDDB}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="10"/>
@@ -101,7 +101,7 @@
 								<Property Name="Volume" Type="Real64">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{EE1D0750-2C93-4312-852C-23B98A48AAA1}">
+											<Modifier Name="" ID="{23AC83E2-8D4E-4697-B164-A819A494F521}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="2"/>
@@ -121,7 +121,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UI_Button_Click" ID="{F921BB48-4C90-4F38-9677-33235D1B3AC3}">
+								<AudioFileSource Name="UI_Button_Click" ID="{B28F2D72-C62E-462F-A6E6-72283D0BBFCD}">
 									<Language>SFX</Language>
 									<AudioFile>UI_Button_Click.wav</AudioFile>
 									<MediaIDList>
@@ -130,7 +130,7 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_Button_Click" ID="{F921BB48-4C90-4F38-9677-33235D1B3AC3}" Platform="Linked"/>
+								<ActiveSource Name="UI_Button_Click" ID="{B28F2D72-C62E-462F-A6E6-72283D0BBFCD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -140,6 +140,124 @@
 						<Property Name="Color" Type="int16" Value="19"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="I_Clock_Unfrozen" ID="{EACF6CDF-CE80-44BF-BBBB-C71677DFA8D4}" ShortID="505508813">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E580BE0D-285D-49C0-AF33-116722BE212B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2E372C3E-A6BA-4186-93F2-AB538237A6AF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="I_Clock_Unfrozen_1" ID="{36DCAFE5-4070-49FC-9266-A6642FADCE70}" ShortID="538989298">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Unfrozen_1" ID="{D9610590-1222-4B71-8B88-7872CC57EA3D}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Unfrozen_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="514805342"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Unfrozen_1" ID="{D9610590-1222-4B71-8B88-7872CC57EA3D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="I_Clock_Unfrozen_2" ID="{6C63AB5B-E8B9-4FAE-A080-4F8EBFCD7DC6}" ShortID="479148012">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Unfrozen_2" ID="{7CACCB24-B70D-415D-BDBC-437081040CF3}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Unfrozen_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="649327940"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Unfrozen_2" ID="{7CACCB24-B70D-415D-BDBC-437081040CF3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="I_Clock_Unfrozen_3" ID="{720DBA04-C797-43E9-AB3D-BF2BF3524698}" ShortID="976945955">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Unfrozen_3" ID="{D33D037C-E5E2-42D7-BD3C-2AEF0D87B198}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Unfrozen_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="273534852"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Unfrozen_3" ID="{D33D037C-E5E2-42D7-BD3C-2AEF0D87B198}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="I_Clock_Frozen" ID="{3D76E203-8AEF-42CA-9F06-48AB46413606}" ShortID="53677029">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
 				</Folder>
 			</ChildrenList>
 		</WorkUnit>
