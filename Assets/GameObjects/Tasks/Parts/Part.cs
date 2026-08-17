@@ -1,9 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace GameObjects.Tasks.Parts
 {
     public abstract class Part : MonoBehaviour
     {
+        [NonSerialized] public float DifficultyScalar = 1.0f;
+        
         public abstract void InitPart();
         //Call to begin the part
         public abstract void StartPart();
