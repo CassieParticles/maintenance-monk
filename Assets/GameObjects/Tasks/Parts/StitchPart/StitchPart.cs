@@ -20,6 +20,8 @@ namespace GameObjects.Tasks.Parts.StitchPart
             
             //Get fail colliders
             _failColliders = new List<ColliderFail>();
+
+            _scores = new List<float>();
             
             StitchPart[] allStitches = transform.parent.GetComponentsInChildren<StitchPart>();
             bool onNewStitches = false;
@@ -64,20 +66,53 @@ namespace GameObjects.Tasks.Parts.StitchPart
         }
         public override void CleanupPart()
         {
+            foreach (ColliderFail col in _failColliders)
+            {
+                Destroy(col.gameObject);
+            }
         }
         public override float FinalScore()
         {
-            throw new System.NotImplementedException();
+            if (_scores.Count < _checkColliders.Count)
+            {
+                return -1;
+            }
+
+            float sumScore = 0;
+            foreach (float score in _scores)
+            {
+                sumScore += score;
+            }
+            return sumScore /  _scores.Count;
         }
 
-        public void NextStitch()
+        public void NextStitch(float score)
         {
+            //Deactivate the collider
+            _checkColliders[_currentIndex].gameObject.SetActive(false);
+            _currentIndex++;
+
+            //Add score if it's not been added yet
+            if (_scores.Count < _currentIndex)
+            {
+                _scores.Add(score);
+            }
+
+            //If all scores have been gotten, then the part is done
+            if (_scores.Count >= _checkColliders.Count)
+            {
+                return;
+            }
             
+            //Activate the next collider
+            _checkColliders[_currentIndex].gameObject.SetActive(true);
         }
 
         public void ResetProgress()
         {
-            
+            _checkColliders[_currentIndex].gameObject.SetActive(false);
+            _checkColliders[0].gameObject.SetActive(true);
+            _currentIndex = 0;
         }
     }
 }

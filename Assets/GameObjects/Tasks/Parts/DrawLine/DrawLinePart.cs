@@ -9,7 +9,6 @@ namespace GameObjects.Tasks.Parts.DrawLine
     public class DrawLinePart: Part
     {
         [SerializeField] private float distance;
-        [NonSerialized] public float DifficultyScalar = 1.0f;
 
         [SerializeField] private DraggableCursor cursorPrefab;
         private DraggableCursor _cursor;

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace GameObjects.Tasks.Parts.StitchPart
 {
-    [RequireComponent(typeof(Collider2D))]
+    [RequireComponent(typeof(CircleCollider2D))]
     public class ColliderFail : MonoBehaviour
     {
         private StitchPart _parentPart;
