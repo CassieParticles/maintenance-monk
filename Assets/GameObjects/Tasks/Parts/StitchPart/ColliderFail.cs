@@ -10,12 +10,12 @@ namespace GameObjects.Tasks.Parts.StitchPart
 
         private void Awake()
         {
-            throw new NotImplementedException();
+            _parentPart = GetComponentInParent<StitchPart>();
         }
 
         private void OnMouseDown()
         {
-            throw new NotImplementedException();
+            _parentPart.ResetProgress();
         }
     }
 }

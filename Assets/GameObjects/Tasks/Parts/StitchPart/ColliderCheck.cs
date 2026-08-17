@@ -15,7 +15,7 @@ namespace GameObjects.Tasks.Parts.StitchPart
 
         private void OnMouseDown()
         {
-            
+            _parentPart.NextStitch();
         }
     }
 }

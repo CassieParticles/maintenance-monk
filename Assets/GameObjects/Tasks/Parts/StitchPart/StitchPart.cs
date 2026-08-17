@@ -40,7 +40,7 @@ namespace GameObjects.Tasks.Parts.StitchPart
                 ColliderCheck[] colliders = stitch.GetComponentsInChildren<ColliderCheck>();
                 foreach (ColliderCheck collider in colliders)
                 {
-                    GameObject newObj = Instantiate(collider.gameObject);
+                    GameObject newObj = Instantiate(collider.gameObject,transform);
                     Destroy(newObj.GetComponent<ColliderCheck>());
                     newObj.AddComponent<ColliderFail>();
                     _failColliders.Add(newObj.GetComponent<ColliderFail>());
@@ -68,6 +68,16 @@ namespace GameObjects.Tasks.Parts.StitchPart
         public override float FinalScore()
         {
             throw new System.NotImplementedException();
+        }
+
+        public void NextStitch()
+        {
+            
+        }
+
+        public void ResetProgress()
+        {
+            
         }
     }
 }
