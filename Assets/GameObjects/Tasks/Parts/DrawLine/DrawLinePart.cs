@@ -124,7 +124,7 @@ namespace GameObjects.Tasks.Parts.DrawLine
 
         public override void FinishPart()
         {
-            
+            _cursor.gameObject.SetActive(false);
         }
         
         public override void CleanupPart()
