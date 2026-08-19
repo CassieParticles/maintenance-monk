@@ -39,10 +39,6 @@ namespace GameObjects.Tasks.Parts.DragSticker
             if (stickerCollider)
             {
                 stickerCollider.ValidPlacement = false;
-                if (!_stickersToPlace.Contains(stickerCollider))
-                {
-                    _stickersToPlace.Add(stickerCollider);
-                }
             }
         }
 
@@ -53,12 +49,15 @@ namespace GameObjects.Tasks.Parts.DragSticker
             if (stickerCollider)
             {
                 stickerCollider.ValidPlacement = true;
-                if (_stickersToPlace.Contains(stickerCollider))
-                {
-                    _stickersToPlace.Remove(stickerCollider);
-                }
             }
         }
+
+        public void RemoveSticker(StickerCollider stickerCollider)
+        {
+            _stickersToPlace.Remove(stickerCollider);
+        }
+        
+        
         public override void FinishPart()
         {
             

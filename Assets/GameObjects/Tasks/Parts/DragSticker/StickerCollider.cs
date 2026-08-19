@@ -6,8 +6,15 @@ namespace GameObjects.Tasks.Parts.DragSticker
     public class StickerCollider : MonoBehaviour
     {
         [NonSerialized] public bool ValidPlacement;
+        
+        private DragStickerPart _stickerPart;
 
         private bool _selected;
+
+        private void Awake()
+        {
+            _stickerPart = GetComponentInParent<DragStickerPart>();
+        }
 
         private void OnMouseDown()
         {
@@ -20,6 +27,10 @@ namespace GameObjects.Tasks.Parts.DragSticker
         private void OnMouseUp()
         {
             _selected = false;
+            if (ValidPlacement)
+            {
+                _stickerPart.RemoveSticker(this);
+            }
         }
 
         private void FixedUpdate()
