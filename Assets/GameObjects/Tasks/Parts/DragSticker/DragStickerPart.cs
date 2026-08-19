@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace GameObjects.Tasks.Parts.DragSticker
@@ -6,42 +7,74 @@ namespace GameObjects.Tasks.Parts.DragSticker
     [RequireComponent(typeof(Collider2D))]
     public class DragStickerPart: Part
     {
+        private List<StickerCollider> _stickersToPlace;
+        
         public override void InitPart()
         {
-            throw new System.NotImplementedException();
+            _stickersToPlace = new  List<StickerCollider>();
+            _stickersToPlace.AddRange(GetComponentsInChildren<StickerCollider>());
+
+            foreach (var stickerCollider in _stickersToPlace)
+            {
+                stickerCollider.gameObject.SetActive(false);
+            }
         }
         public override void StartPart()
         {
-            throw new System.NotImplementedException();
+            foreach (var stickerCollider in _stickersToPlace)
+            {
+                stickerCollider.gameObject.SetActive(true);
+            }
         }
 
         private void FixedUpdate()
         {
-            throw new NotImplementedException();
+            
         }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            throw new NotImplementedException();
+            //Add sticker back to stickers to place
+            StickerCollider stickerCollider = other.GetComponent<StickerCollider>();
+            if (stickerCollider)
+            {
+                stickerCollider.ValidPlacement = false;
+                if (!_stickersToPlace.Contains(stickerCollider))
+                {
+                    _stickersToPlace.Add(stickerCollider);
+                }
+            }
         }
 
         private void OnTriggerExit2D(Collider2D other)
         {
-            throw new NotImplementedException();
+            //Remove sticker from stickers to place
+            StickerCollider stickerCollider = other.GetComponent<StickerCollider>();
+            if (stickerCollider)
+            {
+                stickerCollider.ValidPlacement = true;
+                if (_stickersToPlace.Contains(stickerCollider))
+                {
+                    _stickersToPlace.Remove(stickerCollider);
+                }
+            }
         }
-
-
         public override void FinishPart()
         {
-            throw new System.NotImplementedException();
+            
         }
         public override void CleanupPart()
         {
-            throw new System.NotImplementedException();
+            
         }
         public override float FinalScore()
         {
-            throw new System.NotImplementedException();
+            if (_stickersToPlace.Count > 0)
+            {
+                return -1.0f;
+            }
+
+            return 1.0f;
         }
     }
 }
