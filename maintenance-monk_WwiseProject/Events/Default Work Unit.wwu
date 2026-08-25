@@ -30,7 +30,7 @@
 						<Action Name="" ID="{C6EB22F7-C52B-4814-B0F3-9504FDD42D02}" ShortID="183053979">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="UI_Shop_Purchase" ID="{FD7BFEAB-56A0-4F1B-BD53-C219BE0CDBB7}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+									<ObjectRef Name="UI_Shop_Purchase" ID="{E6B2743F-F9B8-4BF0-ABF1-FBE5D1FD313A}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -91,21 +91,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="P_Stitch" ID="{03E1E5B2-20B0-47E3-B2DB-9A64FC4A9A84}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="P_Vellum" ID="{D75B3482-9F9D-404E-845D-40CD01958B47}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{99A6EDAC-79D3-4C5D-9DD6-927D8AE9F439}" ShortID="590559631">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="P_Vellum" ID="{368F5BF2-F5FA-4E24-AB82-519DB9ACFCF2}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -185,6 +170,15 @@
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{022B2086-A7AC-46FD-B2B8-28887FA6FB6B}" ShortID="465998606">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NPC_Enter" ID="{6788B95B-349B-4F10-BEB0-91C9D9490484}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="NPC_Upper_Class" ID="{5A9799C6-ACAB-4DDF-8A5A-76EC58137328}">
 					<PropertyList>
@@ -209,12 +203,30 @@
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{A01E6EEA-86C1-4648-8A3E-5C144570A7F4}" ShortID="729812012">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_Sticker_Lift" ID="{C5739191-6891-4FDF-8F31-364D0F3F3521}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="P_Sticker_Drop" ID="{154FBB5E-CB25-4E5A-ACA0-EB193170C636}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{32183036-458B-4A1E-81EF-DDBB400C49A1}" ShortID="763873777">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_Sticker_Drop" ID="{DA15E41F-EF7A-48E0-B4F0-0E0AC6EDBD01}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="P_Minigame_Positive" ID="{1E98823C-9034-4C74-A5D0-9DA57761D6DE}">
 					<PropertyList>

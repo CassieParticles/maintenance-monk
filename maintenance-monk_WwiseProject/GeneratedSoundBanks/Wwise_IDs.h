@@ -30,7 +30,6 @@ namespace AK
         static const AkUniqueID P_STICKER_DROP = 202626413U;
         static const AkUniqueID P_STICKER_LIFT = 2613498745U;
         static const AkUniqueID P_STITCH = 3646868397U;
-        static const AkUniqueID P_VELLUM = 2048845667U;
         static const AkUniqueID UI_BUTTON_CLICK = 1664509575U;
         static const AkUniqueID UI_PAGE_TURN_GROUP = 3949245851U;
         static const AkUniqueID UI_PAGE_TURN_SINGLE = 4051801730U;

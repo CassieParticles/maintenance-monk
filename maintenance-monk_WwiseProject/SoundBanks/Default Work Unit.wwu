@@ -5,7 +5,6 @@
 			<ChildrenList>
 				<SoundBank Name="main" ID="{9EFA507F-FEE5-47F9-9659-9946586A637F}">
 					<ObjectInclusionList>
-						<ObjectRef Name="P_Vellum" ID="{D75B3482-9F9D-404E-845D-40CD01958B47}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Page_Turn_Single" ID="{086C0AF1-CF07-40D3-8317-464B7D7488E3}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="P_Scribing" ID="{B8A86356-8884-41F0-91E5-E2E4C432C2F9}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="P_Stitch" ID="{886496D2-B457-42AD-A33E-E6E7331BEFD6}" WorkUnitID="{D0823C6C-2026-4E8A-91A5-25A1FE3B7FD7}" Origin="Manual" Filter="7"/>
