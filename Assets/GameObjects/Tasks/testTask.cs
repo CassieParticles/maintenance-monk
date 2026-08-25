@@ -21,10 +21,10 @@ namespace GameObjects.Tasks
 
         private void FixedUpdate()
         {
-            float score = _task.Score;
-            if (score > 0)
+            TaskResults score = _task.Score;
+            if (score.Score > 0)
             {
-                Debug.Log("Final score is: " + score);
+                Debug.Log("Final score is: " + score.Score + " and the final time is: " + score.Time);
             }
         }
     }

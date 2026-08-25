@@ -13,18 +13,20 @@ namespace GameObjects.Tasks
         private int _currentPartIndex;
         
         private float _cumulativeScore;
-        
+
+        private float _startTime;
+        private float _endTime;
 
         //Return -1 when score is under play, return the cumulative score otherwise
-        public float Score
+        public TaskResults Score
         {
             get
             {
                 if (_currentPartIndex >= 0)
                 {
-                    return -1;
+                    return new TaskResults();
                 }
-                return _cumulativeScore / _parts.Length; 
+                return new TaskResults(_endTime - _startTime,_cumulativeScore /  _parts.Length); 
             }
         }
 
@@ -51,11 +53,15 @@ namespace GameObjects.Tasks
             _currentPartIndex = 0;
             _parts[0].gameObject.SetActive(true);
             _parts[0].StartPart();
+
+            _startTime = Time.time;
         }
         
         //Finish task, player has either completed or exited the task
         public void FinishTask()
         {
+            _endTime = Time.time;
+            
             //If finishing tasks midway, reset part
             if (_currentPartIndex < _parts.Length)
             {
