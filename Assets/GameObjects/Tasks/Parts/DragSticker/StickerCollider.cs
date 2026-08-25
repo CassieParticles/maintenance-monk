@@ -6,13 +6,13 @@ namespace GameObjects.Tasks.Parts.DragSticker
     [RequireComponent(typeof(Collider2D))]
     public class StickerCollider : MonoBehaviour
     {
-        private bool validPlacement;
+        private bool _validPlacement;
         public bool ValidPlacement
         {
-            get => validPlacement;
+            get => _validPlacement;
             set
             {
-                validPlacement = value;
+                _validPlacement = value;
                 if (value)
                 {
                     _spriteRenderer.color = new Color32(255, 255, 255, 255);
