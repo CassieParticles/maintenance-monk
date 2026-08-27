@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4261507825588531589}
   - component: {fileID: 8268492588965308987}
-  - component: {fileID: 3272969551567121414}
   m_Layer: 0
   m_Name: ScribeTask
   m_TagString: Untagged
@@ -47,18 +46,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273c1ea5eed74ccda80e8f0076513ab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Task
---- !u!114 &3272969551567121414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2460350564465001475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f94381a03c9f48ccbbb560302f06fa57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.testTask
 --- !u!1 &3784078264718475355
 GameObject:
   m_ObjectHideFlags: 0
