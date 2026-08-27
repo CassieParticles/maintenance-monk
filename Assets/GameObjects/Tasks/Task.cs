@@ -24,7 +24,7 @@ namespace GameObjects.Tasks
             {
                 if (_currentPartIndex >= 0)
                 {
-                    return new TaskResults();
+                    return new TaskResults(-1,-1);
                 }
                 return new TaskResults(_endTime - _startTime,_cumulativeScore /  _parts.Length); 
             }
@@ -45,11 +45,15 @@ namespace GameObjects.Tasks
             }
             //index -1 tells the fixed update loop the task hasn't started yet
             _currentPartIndex = -1;
+            
+            gameObject.SetActive(false);
         }
 
         //Start the task, starys playing
         public void StartTask()
         {
+            gameObject.SetActive(true);
+            
             _currentPartIndex = 0;
             _parts[0].gameObject.SetActive(true);
             _parts[0].StartPart();
