@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e53cc847547494941810ea9b655d476b, type: 3}
   m_Name: ExampleGroup
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.ProblemList.Problems.ProblemGroup
-  problems: []
+  problems:
+  - {fileID: 11400000, guid: ad914afc6084cf34b8ecc53be831746f, type: 2}
+  - {fileID: 11400000, guid: 24ce80b097a3c954381133fa18975985, type: 2}
+  - {fileID: 11400000, guid: 36db63b2ccf692445a87e835f7db4048, type: 2}

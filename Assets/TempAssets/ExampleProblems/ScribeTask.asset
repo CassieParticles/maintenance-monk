@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91e881fdfb7dc7c4dbefa0aef993be6b, type: 3}
   m_Name: ScribeTask
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.ProblemList.Problems.Problem
-  title: 
-  message: 
-  taskPrefab: {fileID: 0}
+  title: ScribingStuff
+  message: Write this down loser
+  taskPrefab: {fileID: 8268492588965308987, guid: 20ce2ee9796499c4595b07fd57d0cb60, type: 3}

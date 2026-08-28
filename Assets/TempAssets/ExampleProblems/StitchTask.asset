@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91e881fdfb7dc7c4dbefa0aef993be6b, type: 3}
   m_Name: StitchTask
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.ProblemList.Problems.Problem
-  title: 
-  message: 
-  taskPrefab: {fileID: 0}
+  title: Stitching problem
+  message: Aimlabs wishes they were me
+  taskPrefab: {fileID: 1261000269311262632, guid: e54355a73bc2ab843b8215c956f2a6c7, type: 3}

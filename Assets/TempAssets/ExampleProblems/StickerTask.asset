@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91e881fdfb7dc7c4dbefa0aef993be6b, type: 3}
   m_Name: StickerTask
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.ProblemList.Problems.Problem
-  title: 
-  message: 
-  taskPrefab: {fileID: 0}
+  title: Stickers
+  message: Do whatever i don't fucking care lol
+  taskPrefab: {fileID: 2599914575167666384, guid: 916b0d686c72b444fae5a5bba7b5df63, type: 3}
