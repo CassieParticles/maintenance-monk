@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 16f98bf2be2edd343ab169e3acb731d3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 574026526610211575
+    second: TextBody_Scribbles01_0
+  - first:
+      213: -7484768168045984897
+    second: TextBody_Scribbles01_1
+  - first:
+      213: 7101108988648932790
+    second: TextBody_Scribbles01_2
+  - first:
+      213: -4392790732284119691
+    second: TextBody_Scribbles01_3
+  - first:
+      213: 3521533063977092865
+    second: TextBody_Scribbles01_4
+  - first:
+      213: -3796570280702579419
+    second: TextBody_Scribbles01_5
+  - first:
+      213: -8766828017192912258
+    second: TextBody_Scribbles01_6
+  - first:
+      213: -4490379493356651654
+    second: TextBody_Scribbles01_7
+  - first:
+      213: 6517733365039782502
+    second: TextBody_Scribbles01_8
+  - first:
+      213: 1523035622716132978
+    second: TextBody_Scribbles01_9
+  - first:
+      213: -5854664234902890409
+    second: TextBody_Scribbles01_10
+  - first:
+      213: 1827338409282760411
+    second: TextBody_Scribbles01_11
+  - first:
+      213: -6176728518927660534
+    second: TextBody_Scribbles01_12
+  - first:
+      213: 456287200747575406
+    second: TextBody_Scribbles01_13
+  - first:
+      213: 4578107764516728633
+    second: TextBody_Scribbles01_14
+  - first:
+      213: -4062493660338000559
+    second: TextBody_Scribbles01_15
+  - first:
+      213: -4098065943755495998
+    second: TextBody_Scribbles01_16
+  - first:
+      213: 9016541479341569465
+    second: TextBody_Scribbles01_17
+  - first:
+      213: -768792727733081841
+    second: TextBody_Scribbles01_18
+  - first:
+      213: -8274144787561160681
+    second: TextBody_Scribbles01_19
+  - first:
+      213: 3742830242481578776
+    second: TextBody_Scribbles01_20
+  - first:
+      213: -1134472429221951267
+    second: TextBody_Scribbles01_21
+  - first:
+      213: -3345766486004583155
+    second: TextBody_Scribbles01_22
+  - first:
+      213: 7237998112673342999
+    second: TextBody_Scribbles01_23
+  - first:
+      213: -7619458084085987600
+    second: TextBody_Scribbles01_24
+  - first:
+      213: -7011399449832181048
+    second: TextBody_Scribbles01_25
+  - first:
+      213: 3511768178738431459
+    second: TextBody_Scribbles01_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 112
+        width: 81
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2c04aa51a57f700800000000000000
+      internalID: 574026526610211575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 126
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73c775d103c02890800000000000000
+      internalID: -7484768168045984897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 117
+        width: 82
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5c0cb70053c8260800000000000000
+      internalID: 7101108988648932790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575b39d5a1ca903c0800000000000000
+      internalID: -4392790732284119691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 113
+        width: 66
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107c52fe9affed030800000000000000
+      internalID: 3521533063977092865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 86
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52deaedd17fdf4bc0800000000000000
+      internalID: -3796570280702579419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 81
+        width: 97
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a3644fd58f55680800000000000000
+      internalID: -8766828017192912258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 90
+        width: 98
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b37cf44a7fea1c0800000000000000
+      internalID: -4490379493356651654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 58
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a58eb86f3a37a50800000000000000
+      internalID: 6517733365039782502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 54
+        width: 65
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ec24854d8e22510800000000000000
+      internalID: 1523035622716132978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 62
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758dd6fc5ed00cea0800000000000000
+      internalID: -5854664234902890409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 62
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdee9b10a920c5910800000000000000
+      internalID: 1827338409282760411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 61
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0aca43432ad74aa0800000000000000
+      internalID: -6176728518927660534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 60
+        width: 57
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68dd14aace055600800000000000000
+      internalID: 456287200747575406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_14
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 41
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f2a7781c4b88f30800000000000000
+      internalID: 4578107764516728633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 60
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15de6493a8f1f97c0800000000000000
+      internalID: -4062493660338000559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_16
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 46
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5e3549cbeb027c0800000000000000
+      internalID: -4098065943755495998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 36
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5baba24b0312d70800000000000000
+      internalID: 9016541479341569465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 30
+        width: 69
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09e09d5613b455f0800000000000000
+      internalID: -768792727733081841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 40
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710644d67255c2d80800000000000000
+      internalID: -8274144787561160681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_20
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 35
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81324b1764431f330800000000000000
+      internalID: 3742830242481578776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 39
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd840c8165b8140f0800000000000000
+      internalID: -1134472429221951267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 23
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d053a4c8b137191d0800000000000000
+      internalID: -3345766486004583155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_23
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 6
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716a7d65fe8827460800000000000000
+      internalID: 7237998112673342999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 5
+        width: 74
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6831dfd3f324690800000000000000
+      internalID: -7619458084085987600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_25
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 6
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2326e295182be90800000000000000
+      internalID: -7011399449832181048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBody_Scribbles01_26
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 8
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5893b6d8e4cb030800000000000000
+      internalID: 3511768178738431459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TextBody_Scribbles01_0: 574026526610211575
+      TextBody_Scribbles01_1: -7484768168045984897
+      TextBody_Scribbles01_10: -5854664234902890409
+      TextBody_Scribbles01_11: 1827338409282760411
+      TextBody_Scribbles01_12: -6176728518927660534
+      TextBody_Scribbles01_13: 456287200747575406
+      TextBody_Scribbles01_14: 4578107764516728633
+      TextBody_Scribbles01_15: -4062493660338000559
+      TextBody_Scribbles01_16: -4098065943755495998
+      TextBody_Scribbles01_17: 9016541479341569465
+      TextBody_Scribbles01_18: -768792727733081841
+      TextBody_Scribbles01_19: -8274144787561160681
+      TextBody_Scribbles01_2: 7101108988648932790
+      TextBody_Scribbles01_20: 3742830242481578776
+      TextBody_Scribbles01_21: -1134472429221951267
+      TextBody_Scribbles01_22: -3345766486004583155
+      TextBody_Scribbles01_23: 7237998112673342999
+      TextBody_Scribbles01_24: -7619458084085987600
+      TextBody_Scribbles01_25: -7011399449832181048
+      TextBody_Scribbles01_26: 3511768178738431459
+      TextBody_Scribbles01_3: -4392790732284119691
+      TextBody_Scribbles01_4: 3521533063977092865
+      TextBody_Scribbles01_5: -3796570280702579419
+      TextBody_Scribbles01_6: -8766828017192912258
+      TextBody_Scribbles01_7: -4490379493356651654
+      TextBody_Scribbles01_8: 6517733365039782502
+      TextBody_Scribbles01_9: 1523035622716132978
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
