@@ -9,15 +9,12 @@ namespace GameObjects.ProblemList
     public class ProblemList : MonoBehaviour
     {
         [SerializeField] private ProblemEntry entryPrefab;
-
-        [SerializeField] private Problem testProblem;
         
         private List<ProblemEntry> _entries;
 
         private void Awake()
         {
             _entries = new List<ProblemEntry>();
-            AddProblem(testProblem);
         }
 
         public void AddProblem(Problem problem)

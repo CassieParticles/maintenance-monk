@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4366982593566475360}
   - component: {fileID: 185011660923106521}
   - component: {fileID: 8200793951257621499}
+  - component: {fileID: 9029136261729929025}
   m_Layer: 5
   m_Name: ProblemList
   m_TagString: Untagged
@@ -89,4 +90,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.ProblemList.ProblemList
   entryPrefab: {fileID: 2318839373596643702, guid: 87d8cd0f73fbb0c47bdd6e6822e87b22, type: 3}
-  testProblem: {fileID: 0}
+--- !u!114 &9029136261729929025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2331227887739751344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c912d72de94bf3a0941191980421b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameObjects.ProblemList.ProblemListPopulator
+  group: {fileID: 11400000, guid: e37140252866b434f932a310d65a5df7, type: 2}
+  spawnRate: 5

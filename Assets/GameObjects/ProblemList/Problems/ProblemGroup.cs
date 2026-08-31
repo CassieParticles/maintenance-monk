@@ -7,5 +7,10 @@ namespace GameObjects.ProblemList.Problems
     public class ProblemGroup : ScriptableObject
     {
         public List<Problem> problems;
+        
+        public Problem GetRandomProblem()
+        {
+            return problems[Random.Range(0, problems.Count)];
+        }
     }
 }
