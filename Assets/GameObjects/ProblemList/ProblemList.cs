@@ -28,6 +28,12 @@ namespace GameObjects.ProblemList
             _entries.Add(newEntry);
             UpdateDisplay();
         }
+
+        public void RemoveTask(ProblemEntry entry)
+        {
+            _entries.Remove(entry);
+            UpdateDisplay();
+        }
         
         private void UpdateDisplay()
         {
