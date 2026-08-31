@@ -10,6 +10,8 @@ namespace GameObjects.Tasks.CompleteTaskScreen
         [SerializeField] private TextMeshProUGUI timeDisplay;
         [SerializeField] private TextMeshProUGUI accuracyDisplay;
 
+        [NonSerialized] public bool moveOn;
+        
         private void Awake()
         {
             if (timeDisplay == null || accuracyDisplay == null)
@@ -18,10 +20,12 @@ namespace GameObjects.Tasks.CompleteTaskScreen
             }
             
             gameObject.SetActive(false);
+            moveOn = false;
         }
 
         public void StartScreen(TaskResults results)
         {
+            moveOn = false;
             if (timeDisplay != null)
             {
                 int secondsNearest = (int)results.Time;
@@ -65,7 +69,8 @@ namespace GameObjects.Tasks.CompleteTaskScreen
 
         public void CloseScreen()
         {
-            //TODO: Close screen code
+            moveOn = true;
+            gameObject.SetActive(false);
         }
     }
 }
