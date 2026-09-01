@@ -34,6 +34,7 @@ namespace GameObjects.Player
         public int Coins { get; private set; }
         public float Reputation { get; private set; }
         public float DayProgress { get; private set; }
+        public bool IsPaused { get; private set; }
         
         [NonSerialized] public PlayerStates State;
 
@@ -45,6 +46,10 @@ namespace GameObjects.Player
         public void EarnReputation(float reputation)
         {
             Reputation = reputation;
+        }
+
+        public void TogglePause() {
+            IsPaused = !IsPaused;
         }
     }
 }
