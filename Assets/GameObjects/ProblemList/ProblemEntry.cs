@@ -1,4 +1,5 @@
 ﻿using System;
+using GameObjects.Player;
 using GameObjects.ProblemList.Problems;
 using GameObjects.Tasks;
 using GameObjects.Tasks.CompleteTaskScreen;
@@ -34,8 +35,14 @@ namespace GameObjects.ProblemList
 
         public void StartTask()
         {
+            if (PlayerData.Instance.State != PlayerStates.Waiting)
+            {
+                return;
+            }
+            
             Debug.Log("Starting task:");
             _taskStarted = true;
+            PlayerData.Instance.State = PlayerStates.InGame;
             
             _task.StartTask();
         }
@@ -52,8 +59,14 @@ namespace GameObjects.ProblemList
             }
             
             //Task is complete
+            
+
+
+            
+            
+            //Handle display screen
             CompleteTaskScreenHandler completeScreen = FindAnyObjectByType<CompleteTaskScreenHandler>(FindObjectsInactive.Include);
-            if (completeScreen != null && !completeScreen.moveOn)
+            if (completeScreen != null && !completeScreen.MoveOn)
             {
                 completeScreen.StartScreen(_task.Score);
                 return;
@@ -64,6 +77,7 @@ namespace GameObjects.ProblemList
             GetComponentInParent<ProblemList>().RemoveTask(this);
             Destroy(_task.gameObject);
             Destroy(gameObject);
+            PlayerData.Instance.State = PlayerStates.Waiting;
         }
     }
 }

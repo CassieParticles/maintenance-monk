@@ -424,6 +424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273c1ea5eed74ccda80e8f0076513ab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Task
+  coinConversion: {fileID: 11400000, guid: 0a835703590c5a645a62eba3d2574ee6, type: 2}
+  repConversion: {fileID: 11400000, guid: 13bd1e51a8c6daf449fcbf4855f2527b, type: 2}
 --- !u!1 &2273699956404743084
 GameObject:
   m_ObjectHideFlags: 0

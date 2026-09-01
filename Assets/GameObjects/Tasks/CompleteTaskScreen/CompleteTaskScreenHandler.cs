@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using GameObjects.Player;
 using TMPro;
 using UnityEngine;
 
@@ -10,8 +11,13 @@ namespace GameObjects.Tasks.CompleteTaskScreen
         [SerializeField] private TextMeshProUGUI timeDisplay;
         [SerializeField] private TextMeshProUGUI accuracyDisplay;
 
-        [NonSerialized] public bool moveOn;
+        [SerializeField] private TextMeshProUGUI coinsDisplay;
+        [SerializeField] private TextMeshProUGUI reputationDisplay;
+
+        public bool MoveOn { get; private set; }
         
+        private PlayerData _playerData;
+
         private void Awake()
         {
             if (timeDisplay == null || accuracyDisplay == null)
@@ -20,12 +26,14 @@ namespace GameObjects.Tasks.CompleteTaskScreen
             }
             
             gameObject.SetActive(false);
-            moveOn = false;
+            MoveOn = false;
+
+            _playerData = PlayerData.Instance;
         }
 
         public void StartScreen(TaskResults results)
         {
-            moveOn = false;
+            MoveOn = false;
             if (timeDisplay != null)
             {
                 int secondsNearest = (int)results.Time;
@@ -61,15 +69,19 @@ namespace GameObjects.Tasks.CompleteTaskScreen
                 
                 accuracyDisplay.text = displayAccuracy.ToString();
             }
+
+            if (coinsDisplay != null)
+            {
+                coinsDisplay.text = _playerData.Coins.ToString();
+                reputationDisplay.text = _playerData.Reputation.ToString();
+            }
             
             gameObject.SetActive(true);
-            
-            //TODO: Display coins and reputation
         }
 
         public void CloseScreen()
         {
-            moveOn = true;
+            MoveOn = true;
             gameObject.SetActive(false);
         }
     }
