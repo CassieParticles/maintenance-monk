@@ -35,14 +35,14 @@ namespace GameObjects.ProblemList
 
         public void StartTask()
         {
-            if (PlayerData.Instance.InGame)
+            if (PlayerData.Instance.State != PlayerStates.Waiting)
             {
                 return;
             }
             
             Debug.Log("Starting task:");
             _taskStarted = true;
-            PlayerData.Instance.InGame = true;
+            PlayerData.Instance.State = PlayerStates.InGame;
             
             _task.StartTask();
         }
@@ -77,7 +77,7 @@ namespace GameObjects.ProblemList
             GetComponentInParent<ProblemList>().RemoveTask(this);
             Destroy(_task.gameObject);
             Destroy(gameObject);
-            PlayerData.Instance.InGame = false;
+            PlayerData.Instance.State = PlayerStates.Waiting;
         }
     }
 }

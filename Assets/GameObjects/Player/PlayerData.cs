@@ -3,6 +3,14 @@ using UnityEngine;
 
 namespace GameObjects.Player
 {
+    public enum PlayerStates
+    {
+        Waiting,
+        InGame,
+        Talking,
+        Shop
+    }
+    
     public class PlayerData : MonoBehaviour
     {
         private static PlayerData _instance;
@@ -26,8 +34,8 @@ namespace GameObjects.Player
         public int Coins { get; private set; }
         public float Reputation { get; private set; }
         public float DayProgress { get; private set; }
-
-        [NonSerialized]public bool InGame;
+        
+        [NonSerialized] public PlayerStates State;
 
         public void EarnCoins(int coins)
         {
