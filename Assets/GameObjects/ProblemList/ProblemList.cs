@@ -19,6 +19,11 @@ namespace GameObjects.ProblemList
 
         public void AddProblem(Problem problem)
         {
+            if (_entries.Count > 9)
+            {
+                return;
+            }
+            
             ProblemEntry newEntry = Instantiate(entryPrefab,transform);
             newEntry.GiveProblem(problem);
             
@@ -44,8 +49,8 @@ namespace GameObjects.ProblemList
                 float entryHeight =  rectTransform.rect.height;
                 
                 float yPos = listHeight / 2 - i * entryHeight - entryHeight / 2;
-                
-                rectTransform.rect.Set(0,yPos,listWidth,entryHeight);
+
+                entry.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, yPos);
             }
         }
     }
