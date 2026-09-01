@@ -77,6 +77,7 @@ namespace GameObjects.Tasks.Parts.DrawLine
             GameObject obj = new GameObject();
             obj.AddComponent<SpriteRenderer>();
             _texture = obj.AddComponent<DrawTexture>();
+            obj.transform.parent = gameObject.transform;
             
             Vector2 centre = (minCorner + maxCorner) / 2; 
             Vector2 size = (maxCorner - minCorner) + Vector2.one;
