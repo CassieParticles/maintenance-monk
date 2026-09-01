@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using GameObjects.Player;
 using GameObjects.Tasks.Parts;
 using UnityEngine;
 
@@ -7,7 +8,8 @@ namespace GameObjects.Tasks
 {
     public class Task : MonoBehaviour
     {
-        
+        [SerializeField] private AccuracyCoinConversion coinConversion;
+        [SerializeField] private AccuracyRepConversion repConversion;
         
         //List of all parts for the task
         private Part[] _parts;
@@ -76,6 +78,31 @@ namespace GameObjects.Tasks
             }
             
             _currentPartIndex = -1;
+
+            float accuracy = Score.Score;
+            for (int i = 0; i < coinConversion.scoreThresholds.Count; i++)
+            {
+                //Iterate until it finds a threshold that isn't met
+                if (coinConversion.scoreThresholds[i] > accuracy)
+                {
+                    continue;
+                }
+                //Give reward of score player reached
+                PlayerData.Instance.EarnCoins(coinConversion.coinRewards[i]);
+                break;
+            }
+            
+            for (int i = 0; i < repConversion.scoreThresholds.Count; i++)
+            {
+                //Iterate until it finds a threshold that isn't met
+                if (repConversion.scoreThresholds[i] > accuracy)
+                {
+                    continue;
+                }
+                //Give reward of score player reached
+                PlayerData.Instance.EarnReputation(repConversion.repRewards[i]);
+                break;
+            }
         }
 
         //Clean up the task
