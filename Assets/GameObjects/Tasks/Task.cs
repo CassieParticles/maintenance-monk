@@ -7,6 +7,8 @@ namespace GameObjects.Tasks
 {
     public class Task : MonoBehaviour
     {
+        
+        
         //List of all parts for the task
         private Part[] _parts;
         
