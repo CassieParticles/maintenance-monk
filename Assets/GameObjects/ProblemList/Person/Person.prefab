@@ -442,6 +442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.ProblemList.Person.Person
   chatMessage: {fileID: 380145244955682722}
+  image: {fileID: 7403910080470328454}
 --- !u!1 &8417423679062494302
 GameObject:
   m_ObjectHideFlags: 0

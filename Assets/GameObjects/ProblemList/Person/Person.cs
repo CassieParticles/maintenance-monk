@@ -2,12 +2,15 @@
 using GameObjects.ProblemList.Problems;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 namespace GameObjects.ProblemList.Person
 {
     public class Person : MonoBehaviour
     {
         [SerializeField]private TextMeshProUGUI chatMessage;
+        [SerializeField] private Image image;
         
         private ProblemList _problemList;
         private Problem _problem;
@@ -18,6 +21,7 @@ namespace GameObjects.ProblemList.Person
             _problem = problem;
 
             chatMessage.text = _problem.message;
+            image.sprite = _problem.personSprite;
 
             PlayerData.Instance.State = PlayerStates.Talking;
             

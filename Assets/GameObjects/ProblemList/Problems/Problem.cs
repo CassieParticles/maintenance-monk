@@ -9,6 +9,8 @@ namespace GameObjects.ProblemList.Problems
         public string title;
         [TextArea(5,20)]public string message;
 
+        public Sprite personSprite;
+
         public Task taskPrefab;
     }
 }
