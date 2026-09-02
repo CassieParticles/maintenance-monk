@@ -1496,7 +1496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8174327786223276707, guid: 7cc9706ace37ce24889a2f268dd93d67, type: 3}
       propertyPath: DayLength
-      value: 20
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 8492062909432173693, guid: 7cc9706ace37ce24889a2f268dd93d67, type: 3}
       propertyPath: m_IsActive
@@ -1513,7 +1513,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1914911062}
   - {fileID: 1245444934}
+  - {fileID: 1102335631}
   - {fileID: 1390107591}
   - {fileID: 1695183241}
   - {fileID: 246746315}
-  - {fileID: 1102335631}
