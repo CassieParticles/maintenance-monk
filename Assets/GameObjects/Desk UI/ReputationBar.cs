@@ -1,5 +1,7 @@
+using GameObjects.Player;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ReputationBar : MonoBehaviour {
 
@@ -8,7 +10,7 @@ public class ReputationBar : MonoBehaviour {
 
     [SerializeField] Vector3 MinRepPosition;
     [SerializeField] Vector3 MaxRepPosition;
-    Vector3 gizmoSize = new Vector3(0.5f, 0.5f, 0.5f);
+    Vector3 gizmoSize = new Vector3(50f, 50f, 50f);
     GameObject ReputationArrow;
     [SerializeField] SecondOrderMovement<float> SOMreputation = new SecondOrderMovement<float>();
 
@@ -22,6 +24,7 @@ public class ReputationBar : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        reputation = PlayerData.Instance.Reputation;
         visualReputation = SOMreputation.Update(Time.deltaTime, visualReputation, reputation);
         ReputationArrow.transform.localPosition = Vector3.LerpUnclamped(MinRepPosition, MaxRepPosition, visualReputation / 100);
     }
