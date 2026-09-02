@@ -22,6 +22,7 @@ public class ClockScript : MonoBehaviour
 
     public void StartDay() {
         transform.GetChild(0).rotation = Quaternion.Euler(0, 0, 135);
+        DayProgress = 0;
         StartCoroutine(DayCycle());
     }
 
@@ -33,7 +34,7 @@ public class ClockScript : MonoBehaviour
         while (DayProgress < DayLength) {
             yield return new WaitForFixedUpdate();
             DayProgress += Time.fixedDeltaTime;
-            float rotationValue = 135 + 225 * (DayProgress / DayLength);
+            float rotationValue = -135 - 225 * (DayProgress / DayLength);
             transform.GetChild(0).rotation = Quaternion.Euler(0, 0, rotationValue);
             
         }
@@ -41,5 +42,16 @@ public class ClockScript : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         EndDay();
+    }
+
+    public void HideClock(bool hidden) {
+
+        transform.GetChild(0).gameObject.SetActive(!hidden);
+        transform.GetChild(1).gameObject.SetActive(!hidden);
+
+        if (!hidden) {
+            float rotationValue = 135 + 225 * (DayProgress / DayLength);
+            transform.GetChild(0).rotation = Quaternion.Euler(0, 0, rotationValue);
+        }
     }
 }
