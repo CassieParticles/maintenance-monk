@@ -6,17 +6,17 @@ public class SettingsScript : MonoBehaviour
 
     bool isOpen = false;
     [SerializeField] GameObject SettingsObject;
-    [SerializeField] Slider MasterVolume;
-    [SerializeField] Slider SFXVolume;
-    [SerializeField] Slider MusicVolume;
-    [SerializeField] Slider DialogueVolume;
+    Slider MasterVolume;
+    Slider SFXVolume;
+    Slider MusicVolume;
+    Slider DialogueVolume;
 
 
     private void Start() {
-        MasterVolume = SettingsObject.transform.GetChild(0).GetComponent<Slider>();
-        SFXVolume = SettingsObject.transform.GetChild(1).GetComponent<Slider>();
-        MusicVolume = SettingsObject.transform.GetChild(2).GetComponent<Slider>();
-        DialogueVolume = SettingsObject.transform.GetChild(3).GetComponent<Slider>();
+        MasterVolume = SettingsObject.transform.GetChild(0).GetChild(0).GetComponent<Slider>();
+        SFXVolume = SettingsObject.transform.GetChild(0).GetChild(1).GetComponent<Slider>();
+        MusicVolume = SettingsObject.transform.GetChild(0).GetChild(2).GetComponent<Slider>();
+        DialogueVolume = SettingsObject.transform.GetChild(0).GetChild(3).GetComponent<Slider>();
 
 
 
