@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e53cc847547494941810ea9b655d476b, type: 3}
+  m_Name: ProblemGroup
+  m_EditorClassIdentifier: Assembly-CSharp::GameObjects.ProblemList.Problems.ProblemGroup
+  problems:
+  - {fileID: 11400000, guid: aa5170e46c3d14e4e80d1e9793973e51, type: 2}
+  - {fileID: 11400000, guid: 20a981ca3a35ac146a89381d0e38ae3d, type: 2}
+  - {fileID: 11400000, guid: 8c46a1b21ac0dbd4c8c49cf2215a891d, type: 2}
