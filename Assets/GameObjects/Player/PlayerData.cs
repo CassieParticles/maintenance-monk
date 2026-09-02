@@ -13,6 +13,7 @@ namespace GameObjects.Player
     
     public class PlayerData : MonoBehaviour
     {
+        
         private static PlayerData _instance;
         //Static getter, ensures player data can be fetched in any scene
         public static PlayerData Instance
@@ -50,6 +51,10 @@ namespace GameObjects.Player
 
         public void TogglePause() {
             IsPaused = !IsPaused;
+        }
+        private void Awake()
+        {
+            Reputation = 50;
         }
     }
 }
