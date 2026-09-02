@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using GameObjects.Player;
 using GameObjects.ProblemList.Problems;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ namespace GameObjects.ProblemList
     {
         [SerializeField] private ProblemGroup group;
         [SerializeField] private float spawnRate = 5;
+        [SerializeField] private Person.Person personPrefab;
         
         private Coroutine _spawnCoroutine;
         private ProblemList _problemList;
@@ -27,7 +29,13 @@ namespace GameObjects.ProblemList
         private IEnumerator SpawnCoroutine()
         {
             yield return new WaitForSeconds(spawnRate);
-            _problemList.AddProblem(group.GetRandomProblem());
+
+            if (PlayerData.Instance.State == PlayerStates.Waiting)
+            {
+                Person.Person person = Instantiate(personPrefab,FindAnyObjectByType<Canvas>().transform);
+                person.SetUpPerson(group.GetRandomProblem());
+            }
+            
             StartCoroutine(SpawnCoroutine());
         }
     }
