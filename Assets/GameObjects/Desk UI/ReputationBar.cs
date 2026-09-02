@@ -8,7 +8,7 @@ public class ReputationBar : MonoBehaviour {
 
     [SerializeField] Vector3 MinRepPosition;
     [SerializeField] Vector3 MaxRepPosition;
-    Vector3 gizmoSize = new Vector3(0.5f, 0.5f, 0.5f);
+    Vector3 gizmoSize = new Vector3(50f, 50f, 50f);
     GameObject ReputationArrow;
     [SerializeField] SecondOrderMovement<float> SOMreputation = new SecondOrderMovement<float>();
 
