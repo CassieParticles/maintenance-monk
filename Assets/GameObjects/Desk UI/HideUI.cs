@@ -1,4 +1,5 @@
 using GameObjects.Player;
+using GameObjects.ProblemList;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,8 @@ public class HideUI : MonoBehaviour
     GameObject Background;
     ClockScript Clock;
     GameObject ReputationBar;
+    CoinScript CoinCounter;
+    GameObject ProblemList;
     public bool hiddenBool;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,6 +19,8 @@ public class HideUI : MonoBehaviour
         Background = transform.Find("Background").gameObject;
         Clock = transform.GetComponentInChildren<ClockScript>();
         ReputationBar = transform.GetComponentInChildren<ReputationBar>().gameObject;
+        CoinCounter = transform.GetComponentInChildren<CoinScript>();
+        ProblemList = transform.GetComponentInChildren<ProblemList>().gameObject;
     }
 
     // Update is called once per frame
@@ -30,8 +35,11 @@ public class HideUI : MonoBehaviour
     [ContextMenu("Hide")]
     public void HideAll() {
         hiddenBool = !hiddenBool;
+
         Background.SetActive(!hiddenBool);
         Clock.HideClock(hiddenBool);
         ReputationBar.SetActive(!hiddenBool);
+        CoinCounter.HideCoins(hiddenBool);
+        ProblemList.SetActive(!hiddenBool);
     }
 }
