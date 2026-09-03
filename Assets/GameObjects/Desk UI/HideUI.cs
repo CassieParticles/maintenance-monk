@@ -1,5 +1,6 @@
 using GameObjects.Player;
 using GameObjects.ProblemList;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -40,6 +41,11 @@ public class HideUI : MonoBehaviour
         Clock.HideClock(hiddenBool);
         ReputationBar.SetActive(!hiddenBool);
         CoinCounter.HideCoins(hiddenBool);
-        ProblemList.SetActive(!hiddenBool);
+
+        foreach (ProblemEntry entry in ProblemList.GetComponentsInChildren<ProblemEntry>())
+        {
+            entry.GetComponent<Image>().enabled = !hiddenBool;
+            entry.GetComponentInChildren<TextMeshProUGUI>().enabled = !hiddenBool;
+        }
     }
 }
