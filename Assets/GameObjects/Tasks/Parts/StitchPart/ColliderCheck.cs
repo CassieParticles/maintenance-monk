@@ -25,5 +25,10 @@ namespace GameObjects.Tasks.Parts.StitchPart
             
             _parentPart.NextStitch(score);
         }
+
+        public void SetActive(bool active)
+        {
+            _collider2D.enabled = active;
+        }
     }
 }

@@ -52,12 +52,13 @@ namespace GameObjects.Tasks.Parts.StitchPart
             //Disable all check colliders
             foreach (ColliderCheck collider in _checkColliders)
             {
-                collider.gameObject.SetActive(false);
+                collider.SetActive(false);
             }
         }
         public override void StartPart()
         {
-            _checkColliders[0].gameObject.SetActive(true);
+            _checkColliders[0].SetActive(true);
+            _checkColliders[_currentIndex].transform.localScale *= 1.2f;
             _currentIndex = 0;
         }
         public override void FinishPart()
@@ -89,8 +90,8 @@ namespace GameObjects.Tasks.Parts.StitchPart
         public void NextStitch(float score)
         {
             //Deactivate the collider
-            _checkColliders[_currentIndex].gameObject.SetActive(false);
-            _checkColliders[_currentIndex].transform.localScale = Vector3.one;
+            _checkColliders[_currentIndex].SetActive(false);
+            _checkColliders[_currentIndex].transform.localScale /= 1.2f;
             _currentIndex++;
 
             //Add score if it's not been added yet
@@ -106,17 +107,17 @@ namespace GameObjects.Tasks.Parts.StitchPart
             }
             
             //Activate the next collider
-            _checkColliders[_currentIndex].gameObject.SetActive(true);
-            _checkColliders[_currentIndex].transform.localScale = Vector3.one * 1.2f;
+            _checkColliders[_currentIndex].SetActive(true);
+            _checkColliders[_currentIndex].transform.localScale *= 1.2f;
         }
 
         public void ResetProgress()
         {
-            _checkColliders[_currentIndex].transform.localScale = Vector3.one;
-            _checkColliders[_currentIndex].gameObject.SetActive(false);
-            _checkColliders[0].gameObject.SetActive(true);
+            _checkColliders[_currentIndex].transform.localScale /= 1.2f;
+            _checkColliders[_currentIndex].SetActive(false);
+            _checkColliders[0].SetActive(true);
             _currentIndex = 0;
-            _checkColliders[0].transform.localScale = Vector3.one * 1.2f;
+            _checkColliders[0].transform.localScale *= 1.2f;
         }
     }
 }
