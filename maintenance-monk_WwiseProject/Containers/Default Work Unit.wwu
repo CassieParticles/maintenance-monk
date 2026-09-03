@@ -235,7 +235,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -756,6 +756,74 @@
 									<ObjectRef Name="SFX_Audio_Bus" ID="{73A113FE-F424-4FE6-8B75-9C5BEA000E5A}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="I_Clock_Frozen_1" ID="{15694EDB-943E-42DC-BC93-0FFB220106CA}" ShortID="154879039">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Frozen_1" ID="{F787279A-F476-4FC7-9FE8-266A90D09304}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Frozen_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="275988314"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Frozen_1" ID="{F787279A-F476-4FC7-9FE8-266A90D09304}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="I_Clock_Frozen_2" ID="{94EED0A5-4920-463D-96AD-54AC3D49F005}" ShortID="1003774584">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Frozen_2" ID="{93B418EB-059B-4CCB-BB67-410C1BE087A9}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Frozen_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="94704057"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Frozen_2" ID="{93B418EB-059B-4CCB-BB67-410C1BE087A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="I_Clock_Frozen_3" ID="{59E237CB-6514-4BEC-A4FA-D2F78DB8B502}" ShortID="1007140313">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A1237D9-C4BD-4493-A5BF-9596E42F3495}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD463C4E-6C6C-4567-B480-5CEF186BCF63}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="I_Clock_Frozen_3" ID="{7980F4FE-E97A-46A9-875B-0DA7910BDE0B}">
+											<Language>SFX</Language>
+											<AudioFile>I_Clock_Frozen_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="967115806"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="I_Clock_Frozen_3" ID="{7980F4FE-E97A-46A9-875B-0DA7910BDE0B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="I_Clock_Next_Stage" ID="{491B593B-D3AF-4981-A7F2-4B757580B492}" ShortID="202503569">
 							<PropertyList>

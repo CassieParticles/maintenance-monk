@@ -11,10 +11,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	4051801730	UI_Page_Turn_Single			\Default Work Unit\UI_Page_Turn_Single	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	94704057	I_Clock_Frozen_2	.cache\A5\{A5D4C7E4-9488-DE07-49DC-05FB6BED3767}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Frozen\I_Clock_Frozen_2		352896
 	100939464	P_Sticker_Lift_3	.cache\BC\{BC1F3687-7A30-8261-848B-D73722F08545}.wem		\Containers\Default Work Unit\Player\P_Sticker_Lift\P_Sticker_Lift_3		40924
 	123926229	UI_Page_Turn_Group_1	.cache\FB\{FBC5D7B1-24A5-F091-E03C-06ECD1181C16}.wem		\Containers\Default Work Unit\UI_Feedback\UI_Page_Turn_Group\UI_Page_Turn_Group_1		176496
 	248013631	I_Clock_Next_Stage_3	.cache\A5\{A5D90ACB-4880-BF6D-C9F8-C89E1599E082}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Next_Stage\I_Clock_Next_Stage_3		31840
 	273534852	I_Clock_Unfrozen_3	.cache\1E\{1E02B3DC-3A93-41FD-445D-CB052F9F89A4}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Unfrozen\I_Clock_Unfrozen_3		215136
+	275988314	I_Clock_Frozen_1	.cache\46\{46CBAF68-FCCD-4D70-4C20-7B62E01A0636}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Frozen\I_Clock_Frozen_1		396104
 	316405668	UI_Button_Click	.cache\82\{821D61AD-4963-CC47-56E7-73C31FB27CA4}.wem		\Containers\Default Work Unit\UI_Feedback\UI_Button_Click		210016
 	416566881	UI_Page_Turn_Group_3	.cache\DB\{DB6A0B51-C53D-F1AD-9079-75F95A621F69}.wem		\Containers\Default Work Unit\UI_Feedback\UI_Page_Turn_Group\UI_Page_Turn_Group_3		154448
 	449653212	I_Clock_Next_Stage_2	.cache\22\{227851C7-9802-F7B6-29F8-078E2AE7B27A}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Next_Stage\I_Clock_Next_Stage_2		36192
@@ -30,6 +32,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	762203785	UI_Page_Turn_Single_2	.cache\0A\{0A77FD8E-2EA5-263D-E636-2FE8207CC877}.wem		\Containers\Default Work Unit\UI_Feedback\UI_Page_Turn_Single\UI_Page_Turn_Single_2		132396
 	793399668	UI_Shop_Purchase	.cache\87\{8758F812-4187-7E0A-27A1-9D04776B4534}.wem		\Containers\Default Work Unit\UI_Feedback\UI_Shop_Purchase\UI_Shop_Purchase		197540
 	935482776	P_Sticker_Drop_1	.cache\DA\{DAC8165E-3876-1AEC-A505-D6CCEC498D26}.wem		\Containers\Default Work Unit\Player\P_Sticker_Drop\P_Sticker_Drop_1		88296
+	967115806	I_Clock_Frozen_3	.cache\00\{00B8E3A5-2295-36BE-6545-CD28D3DB509A}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Frozen\I_Clock_Frozen_3		396996
 	978734812	I_Clock_Next_Stage_1	.cache\73\{73D971AF-4976-5257-A6E7-02F66FD68E46}.wem		\Containers\Default Work Unit\Informational_SFX\I_Clock_Next_Stage\I_Clock_Next_Stage_1		39520
 	995998436	UI_Page_Turn_Single_3	.cache\CE\{CE176345-8EDD-F284-EECE-2B7543B899A7}.wem		\Containers\Default Work Unit\UI_Feedback\UI_Page_Turn_Single\UI_Page_Turn_Single_3		132396
 	1002890941	UI_Page_Turn_Single_4	.cache\34\{34503D35-EE8C-2091-3FE2-DFE54DFC1C1A}.wem		\Containers\Default Work Unit\UI_Feedback\UI_Page_Turn_Single\UI_Page_Turn_Single_4		132396

@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{9EFA507F-FEE5-47F9-9659-9946586A637F}",
     "Language": "SFX",
-    "Hash": "{A92AA7D5-A475-3B46-C3D2-8D5FEE801814}",
+    "Hash": "{355CCB66-D6B3-F685-EE8F-3C24742E5E92}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
     "Media": [
+     {
+      "Id": "94704057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Frozen_2.wav",
+      "CachePath": "A5/{A5D4C7E4-9488-DE07-49DC-05FB6BED3767}.wem"
+     },
      {
       "Id": "100939464",
       "Language": "SFX",
@@ -46,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "I_Clock_Unfrozen_3.wav",
       "CachePath": "1E/{1E02B3DC-3A93-41FD-445D-CB052F9F89A4}.wem"
+     },
+     {
+      "Id": "275988314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Frozen_1.wav",
+      "CachePath": "46/{46CBAF68-FCCD-4D70-4C20-7B62E01A0636}.wem"
      },
      {
       "Id": "316405668",
@@ -168,6 +184,14 @@
       "CachePath": "DA/{DAC8165E-3876-1AEC-A505-D6CCEC498D26}.wem"
      },
      {
+      "Id": "967115806",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Frozen_3.wav",
+      "CachePath": "00/{00B8E3A5-2295-36BE-6545-CD28D3DB509A}.wem"
+     },
+     {
       "Id": "978734812",
       "Language": "SFX",
       "Streaming": "false",
@@ -200,8 +224,19 @@
       "GUID": "{19A5809E-3BA5-4579-B5D9-2F3155A541E0}",
       "Color": "19",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.9884808",
+      "DurationMax": "2.263034",
+      "MediaRefs": [
+       {
+        "Id": "94704057"
+       },
+       {
+        "Id": "275988314"
+       },
+       {
+        "Id": "967115806"
+       }
+      ]
      },
      {
       "Id": "1853520656",
@@ -380,6 +415,6 @@
     ]
    }
   ],
-  "FileHash": "{07B9F5C4-C31D-2049-073F-20C667E87E56}"
+  "FileHash": "{91CC3487-68AE-98B7-37FF-0EF7DB07CF52}"
  }
 }
