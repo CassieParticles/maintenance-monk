@@ -90,6 +90,7 @@ namespace GameObjects.Tasks.Parts.StitchPart
         {
             //Deactivate the collider
             _checkColliders[_currentIndex].gameObject.SetActive(false);
+            _checkColliders[_currentIndex].transform.localScale = Vector3.one;
             _currentIndex++;
 
             //Add score if it's not been added yet
@@ -106,13 +107,16 @@ namespace GameObjects.Tasks.Parts.StitchPart
             
             //Activate the next collider
             _checkColliders[_currentIndex].gameObject.SetActive(true);
+            _checkColliders[_currentIndex].transform.localScale = Vector3.one * 1.2f;
         }
 
         public void ResetProgress()
         {
+            _checkColliders[_currentIndex].transform.localScale = Vector3.one;
             _checkColliders[_currentIndex].gameObject.SetActive(false);
             _checkColliders[0].gameObject.SetActive(true);
             _currentIndex = 0;
+            _checkColliders[0].transform.localScale = Vector3.one * 1.2f;
         }
     }
 }
