@@ -66,7 +66,7 @@ namespace GameObjects.Tasks.Parts.DrawLine
             _currentLine = -1;
 
             //Create the cursor object for the player
-            _cursor = Instantiate(cursorPrefab);
+            _cursor = Instantiate(cursorPrefab,gameObject.transform);
             _cursor.gameObject.transform.position = _points[0];
             _cursor.gameObject.SetActive(false);
             
@@ -76,7 +76,9 @@ namespace GameObjects.Tasks.Parts.DrawLine
             //Setting up the texture to draw to
             GameObject obj = new GameObject();
             obj.transform.parent = gameObject.transform;
-            obj.AddComponent<SpriteRenderer>().sortingOrder = 10;
+            SpriteRenderer renderer = obj.AddComponent<SpriteRenderer>();
+            renderer.sortingOrder = 10;
+            renderer.sortingLayerName = "THE ONE IN FRONT";
             _texture = obj.AddComponent<DrawTexture>();
             obj.transform.parent = gameObject.transform;
             
@@ -100,7 +102,7 @@ namespace GameObjects.Tasks.Parts.DrawLine
             {
                 return;
             }
-            _texture.Draw(_cursor.transform.position,0.1f,Color.black);
+            _texture.Draw(_cursor.transform.position,0.1f,Color.blue);
             
             //Get how far along the line the cursor has moved
             float progress = _lines[_currentLine].GetIValue(_lines[_currentLine].ProjectPoint(_cursor.transform.position));
