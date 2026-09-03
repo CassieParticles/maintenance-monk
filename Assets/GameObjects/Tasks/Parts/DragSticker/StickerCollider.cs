@@ -6,6 +6,9 @@ namespace GameObjects.Tasks.Parts.DragSticker
     [RequireComponent(typeof(Collider2D))]
     public class StickerCollider : MonoBehaviour
     {
+        [SerializeField] AK.Wwise.Event stickerLift;
+        [SerializeField] AK.Wwise.Event stickerDrop;
+
         private bool _validPlacement;
         public bool ValidPlacement
         {
@@ -42,6 +45,7 @@ namespace GameObjects.Tasks.Parts.DragSticker
             if (!ValidPlacement)
             {
                 _selected = true;
+                stickerLift.Post(gameObject);
             }
         }
 
@@ -54,6 +58,8 @@ namespace GameObjects.Tasks.Parts.DragSticker
             }
             
             _selected = false;
+            stickerDrop.Post(gameObject);
+
             if (ValidPlacement)
             {
                 _stickerPart.RemoveSticker(this);

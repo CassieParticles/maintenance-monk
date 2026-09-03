@@ -1486,6 +1486,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fb6b584cd0e99340bbe95ebec0f3ecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneManagement
+  uiButtonClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &944006446
 MonoBehaviour:
   m_ObjectHideFlags: 0

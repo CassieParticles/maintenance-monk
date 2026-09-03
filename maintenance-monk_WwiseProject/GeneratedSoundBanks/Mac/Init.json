@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{8CBC2CD0-42C0-9F20-AFE8-5201E29BE1BB}",
+    "Hash": "{EE5ACF04-35FC-EC0B-3A1C-3923F7FF3F62}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,14 +36,14 @@
     },
     "Busses": [
      {
-      "Id": "2246998526",
-      "Name": "Main Audio Bus",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
+      "Id": "2392784291",
+      "Name": "Master_Audio_Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master_Audio_Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ]
    }
   ],
-  "FileHash": "{E5054BD5-2B82-CAFE-17AA-357486DA9274}"
+  "FileHash": "{0C07A496-4D14-7F75-5722-2DA94EDB08F8}"
  }
 }

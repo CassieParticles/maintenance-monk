@@ -180,6 +180,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e786664d67a64134a74c440b00fbc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.DragSticker.StickerCollider
+  stickerLift:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
+  stickerDrop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 110d82897ab161e49b68fb12a2f03360, type: 2}
 --- !u!1 &334378138371888412
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +326,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273c1ea5eed74ccda80e8f0076513ab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Task
+  pageTurnSingle:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: afcbd16f694bf984aac935a887c638eb, type: 2}
   coinConversion: {fileID: 11400000, guid: 04049d9692cfdfc49855aebf692887d0, type: 2}
   repConversion: {fileID: 11400000, guid: 5acca9232c4da06498a084edd2297659, type: 2}
 --- !u!1 &1542310845629220914
@@ -592,6 +604,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e786664d67a64134a74c440b00fbc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.DragSticker.StickerCollider
+  stickerLift:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
+  stickerDrop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 110d82897ab161e49b68fb12a2f03360, type: 2}
 --- !u!1 &2196270573932772585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,6 +1068,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e786664d67a64134a74c440b00fbc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.DragSticker.StickerCollider
+  stickerLift:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
+  stickerDrop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 110d82897ab161e49b68fb12a2f03360, type: 2}
 --- !u!1 &3715654751893782070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,6 +1440,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e786664d67a64134a74c440b00fbc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.DragSticker.StickerCollider
+  stickerLift:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
+  stickerDrop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 110d82897ab161e49b68fb12a2f03360, type: 2}
 --- !u!1 &5820170614630138599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1701,6 +1737,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e786664d67a64134a74c440b00fbc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.DragSticker.StickerCollider
+  stickerLift:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
+  stickerDrop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 110d82897ab161e49b68fb12a2f03360, type: 2}
 --- !u!1 &8464225483869774610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1881,6 +1925,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e786664d67a64134a74c440b00fbc5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.DragSticker.StickerCollider
+  stickerLift:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
+  stickerDrop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 110d82897ab161e49b68fb12a2f03360, type: 2}
 --- !u!1 &8824450599083765508
 GameObject:
   m_ObjectHideFlags: 0

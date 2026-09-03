@@ -911,6 +911,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273c1ea5eed74ccda80e8f0076513ab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Task
+  pageTurnSingle:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24e72174516f8c24396be7633b5024cd, type: 2}
   coinConversion: {fileID: 11400000, guid: 53e6e27af9b37ee4dbad2519caf78905, type: 2}
   repConversion: {fileID: 11400000, guid: 1ecbf7ea73427364495034bada16f1de, type: 2}
 --- !u!1 &5673009928179032511

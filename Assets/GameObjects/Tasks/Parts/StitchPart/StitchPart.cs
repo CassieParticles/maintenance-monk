@@ -5,6 +5,8 @@ namespace GameObjects.Tasks.Parts.StitchPart
 {
     public class StitchPart: Part
     {
+        [SerializeField] AK.Wwise.Event stitchSuccess;
+
         //Colliders
         private List<ColliderCheck> _checkColliders;
         private List<ColliderFail> _failColliders;
@@ -92,6 +94,8 @@ namespace GameObjects.Tasks.Parts.StitchPart
             _checkColliders[_currentIndex].gameObject.SetActive(false);
             _checkColliders[_currentIndex].transform.localScale = Vector3.one;
             _currentIndex++;
+
+            stitchSuccess.Post(gameObject);
 
             //Add score if it's not been added yet
             if (_scores.Count < _currentIndex)

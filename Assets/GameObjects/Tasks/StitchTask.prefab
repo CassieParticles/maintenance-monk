@@ -1930,6 +1930,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273c1ea5eed74ccda80e8f0076513ab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Task
+  pageTurnSingle:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: afcbd16f694bf984aac935a887c638eb, type: 2}
   coinConversion: {fileID: 11400000, guid: 3d1ae9dc7bfe16f41ab453da2c7c2f0e, type: 2}
   repConversion: {fileID: 11400000, guid: 483c74666f772c942a30ac19007d0507, type: 2}
 --- !u!1 &4747614919892719340
@@ -2213,6 +2217,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0546f7b824c24678bde25ce91d3e5349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.StitchPart.StitchPart
+  stitchSuccess:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
 --- !u!1 &5581321342101803699
 GameObject:
   m_ObjectHideFlags: 0
@@ -2924,6 +2932,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0546f7b824c24678bde25ce91d3e5349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.StitchPart.StitchPart
+  stitchSuccess:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
 --- !u!1 &7054439622248398533
 GameObject:
   m_ObjectHideFlags: 0
@@ -2971,6 +2983,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0546f7b824c24678bde25ce91d3e5349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.StitchPart.StitchPart
+  stitchSuccess:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
 --- !u!1 &7088124118634494160
 GameObject:
   m_ObjectHideFlags: 0
@@ -3110,6 +3126,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0546f7b824c24678bde25ce91d3e5349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.StitchPart.StitchPart
+  stitchSuccess:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
 --- !u!1 &7623411798533977612
 GameObject:
   m_ObjectHideFlags: 0
@@ -3299,6 +3319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0546f7b824c24678bde25ce91d3e5349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.StitchPart.StitchPart
+  stitchSuccess:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}
 --- !u!1 &7873772194013605608
 GameObject:
   m_ObjectHideFlags: 0
