@@ -75,7 +75,8 @@ namespace GameObjects.Tasks.Parts.DrawLine
             
             //Setting up the texture to draw to
             GameObject obj = new GameObject();
-            obj.AddComponent<SpriteRenderer>();
+            obj.transform.parent = gameObject.transform;
+            obj.AddComponent<SpriteRenderer>().sortingOrder = 10;
             _texture = obj.AddComponent<DrawTexture>();
             obj.transform.parent = gameObject.transform;
             

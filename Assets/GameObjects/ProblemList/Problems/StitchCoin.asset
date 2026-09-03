@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: StitchCoin
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Player.AccuracyCoinConversion
   scoreThresholds:
-  - 30
-  - 75
-  - 100
+  - 0.3
+  - 0.75
+  - 1
   coinRewards: 030000000500000007000000

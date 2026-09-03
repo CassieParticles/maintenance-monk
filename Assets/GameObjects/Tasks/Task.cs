@@ -23,6 +23,9 @@ namespace GameObjects.Tasks
         private float _startTime;
         private float _endTime;
 
+        private int _coinsEarned;
+        private float _repEarned;
+
         //Return -1 when score is under play, return the cumulative score otherwise
         public TaskResults Score
         {
@@ -30,9 +33,9 @@ namespace GameObjects.Tasks
             {
                 if (_currentPartIndex >= 0)
                 {
-                    return new TaskResults(-1,-1);
+                    return new TaskResults(-1,-1,-1,-1);
                 }
-                return new TaskResults(_endTime - _startTime,_cumulativeScore /  _parts.Length); 
+                return new TaskResults(_endTime - _startTime,_cumulativeScore /  _parts.Length,_coinsEarned,_repEarned); 
             }
         }
 
@@ -86,24 +89,24 @@ namespace GameObjects.Tasks
             for (int i = 0; i < coinConversion.scoreThresholds.Count; i++)
             {
                 //Iterate until it finds a threshold that isn't met
-                if (coinConversion.scoreThresholds[i] > accuracy)
+                if (coinConversion.scoreThresholds[i] < accuracy)
                 {
                     continue;
                 }
                 //Give reward of score player reached
-                PlayerData.Instance.EarnCoins(coinConversion.coinRewards[i]);
+                PlayerData.Instance.EarnCoins(_coinsEarned = coinConversion.coinRewards[i]);
                 break;
             }
             
             for (int i = 0; i < repConversion.scoreThresholds.Count; i++)
             {
                 //Iterate until it finds a threshold that isn't met
-                if (repConversion.scoreThresholds[i] > accuracy)
+                if (repConversion.scoreThresholds[i] < accuracy)
                 {
                     continue;
                 }
                 //Give reward of score player reached
-                PlayerData.Instance.EarnReputation(repConversion.repRewards[i]);
+                PlayerData.Instance.EarnReputation(_repEarned = repConversion.repRewards[i]);
                 break;
             }
         }

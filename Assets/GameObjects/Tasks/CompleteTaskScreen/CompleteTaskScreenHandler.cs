@@ -74,8 +74,8 @@ namespace GameObjects.Tasks.CompleteTaskScreen
 
             if (coinsDisplay != null)
             {
-                coinsDisplay.text = _playerData.Coins.ToString();
-                reputationDisplay.text = _playerData.Reputation.ToString();
+                coinsDisplay.text = "+"+results.CoinsEarned;
+                reputationDisplay.text = "+" + results.RepEarned;
             }
             
             gameObject.SetActive(true);
