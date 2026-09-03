@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad76fa147d3646c2a9e6ee975af90311, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.DrawLine.DrawLinePart
-  distance: 0
+  distance: 0.2
   cursorPrefab: {fileID: 1740587269998018731, guid: 6ac1002a4d41ac04d874504fc3cbdb6f, type: 3}
   scoreChecks: 100
 --- !u!1 &186250296483860058
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad76fa147d3646c2a9e6ee975af90311, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.DrawLine.DrawLinePart
-  distance: 0
+  distance: 0.2
   cursorPrefab: {fileID: 1740587269998018731, guid: 6ac1002a4d41ac04d874504fc3cbdb6f, type: 3}
   scoreChecks: 100
 --- !u!1 &719837390095821810
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad76fa147d3646c2a9e6ee975af90311, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.DrawLine.DrawLinePart
-  distance: 0
+  distance: 0.2
   cursorPrefab: {fileID: 1740587269998018731, guid: 6ac1002a4d41ac04d874504fc3cbdb6f, type: 3}
   scoreChecks: 100
 --- !u!1 &933490687061188305
