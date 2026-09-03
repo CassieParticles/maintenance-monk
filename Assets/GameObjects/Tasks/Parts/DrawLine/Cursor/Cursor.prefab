@@ -255,3 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fa08a09cfd99414095e017a2eb6bc8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  penClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57570b5880c31ea4bb438ed9942e70cf, type: 2}

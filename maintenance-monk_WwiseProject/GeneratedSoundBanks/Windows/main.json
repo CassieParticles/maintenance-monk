@@ -10,11 +10,35 @@
     "Type": "User",
     "GUID": "{9EFA507F-FEE5-47F9-9659-9946586A637F}",
     "Language": "SFX",
-    "Hash": "{54BF99EE-057B-6015-677C-32D4D23DE363}",
+    "Hash": "{AC5A9156-F7BD-A9D9-4D4A-D28B7C63C7C1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
     "Media": [
+     {
+      "Id": "94704057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Frozen_2.wav",
+      "CachePath": "A5/{A5D4C7E4-9488-DE07-49DC-05FB6BED3767}.wem"
+     },
+     {
+      "Id": "100939464",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Lift_3.wav",
+      "CachePath": "BC/{BC1F3687-7A30-8261-848B-D73722F08545}.wem"
+     },
+     {
+      "Id": "123926229",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Group_1.wav",
+      "CachePath": "FB/{FBC5D7B1-24A5-F091-E03C-06ECD1181C16}.wem"
+     },
      {
       "Id": "248013631",
       "Language": "SFX",
@@ -32,12 +56,28 @@
       "CachePath": "1E/{1E02B3DC-3A93-41FD-445D-CB052F9F89A4}.wem"
      },
      {
+      "Id": "275988314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Frozen_1.wav",
+      "CachePath": "46/{46CBAF68-FCCD-4D70-4C20-7B62E01A0636}.wem"
+     },
+     {
       "Id": "316405668",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UI_Button_Click.wav",
       "CachePath": "82/{821D61AD-4963-CC47-56E7-73C31FB27CA4}.wem"
+     },
+     {
+      "Id": "416566881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Group_3.wav",
+      "CachePath": "DB/{DB6A0B51-C53D-F1AD-9079-75F95A621F69}.wem"
      },
      {
       "Id": "449653212",
@@ -48,12 +88,52 @@
       "CachePath": "22/{227851C7-9802-F7B6-29F8-078E2AE7B27A}.wem"
      },
      {
+      "Id": "481392785",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Single_1.wav",
+      "CachePath": "4A/{4AC9BDD6-204F-77B7-FE6C-56000A718F76}.wem"
+     },
+     {
       "Id": "514805342",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "I_Clock_Unfrozen_1.wav",
       "CachePath": "4A/{4A51BAF8-DF4C-252E-FB83-2CB49EA5A389}.wem"
+     },
+     {
+      "Id": "544666405",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_NPC_Enter.wav",
+      "CachePath": "72/{7235F12C-AA15-5AAB-43DC-01D22135D233}.wem"
+     },
+     {
+      "Id": "558145021",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Lift_1.wav",
+      "CachePath": "55/{55A06827-4168-5239-CA1C-05B086907558}.wem"
+     },
+     {
+      "Id": "635631202",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Drop_2.wav",
+      "CachePath": "3A/{3AB7FFE7-7FD7-F757-7ED3-38778B165A27}.wem"
+     },
+     {
+      "Id": "635699237",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Drop_3.wav",
+      "CachePath": "93/{93C67A70-EDBD-93C0-8D83-A53D29AF7F4F}.wem"
      },
      {
       "Id": "649327940",
@@ -64,12 +144,76 @@
       "CachePath": "19/{199FFCC4-5C9A-44C6-2520-C7BFCFC0D3F1}.wem"
      },
      {
+      "Id": "727930976",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Group_2.wav",
+      "CachePath": "E8/{E838D5A6-4B9A-3889-AED4-5586B754B8D1}.wem"
+     },
+     {
+      "Id": "760106271",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Lift_2.wav",
+      "CachePath": "31/{31BF9FE1-1E1D-90DA-5FC9-0635372BF9C6}.wem"
+     },
+     {
+      "Id": "762203785",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Single_2.wav",
+      "CachePath": "0A/{0A77FD8E-2EA5-263D-E636-2FE8207CC877}.wem"
+     },
+     {
+      "Id": "793399668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Shop_Purchase.wav",
+      "CachePath": "87/{8758F812-4187-7E0A-27A1-9D04776B4534}.wem"
+     },
+     {
+      "Id": "935482776",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Drop_1.wav",
+      "CachePath": "DA/{DAC8165E-3876-1AEC-A505-D6CCEC498D26}.wem"
+     },
+     {
+      "Id": "967115806",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Frozen_3.wav",
+      "CachePath": "00/{00B8E3A5-2295-36BE-6545-CD28D3DB509A}.wem"
+     },
+     {
       "Id": "978734812",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "I_Clock_Next_Stage_1.wav",
       "CachePath": "73/{73D971AF-4976-5257-A6E7-02F66FD68E46}.wem"
+     },
+     {
+      "Id": "995998436",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Single_3.wav",
+      "CachePath": "CE/{CE176345-8EDD-F284-EECE-2B7543B899A7}.wem"
+     },
+     {
+      "Id": "1002890941",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Single_4.wav",
+      "CachePath": "34/{34503D35-EE8C-2091-3FE2-DFE54DFC1C1A}.wem"
      }
     ],
     "Events": [
@@ -80,8 +224,19 @@
       "GUID": "{19A5809E-3BA5-4579-B5D9-2F3155A541E0}",
       "Color": "19",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.9884808",
+      "DurationMax": "2.263034",
+      "MediaRefs": [
+       {
+        "Id": "94704057"
+       },
+       {
+        "Id": "275988314"
+       },
+       {
+        "Id": "967115806"
+       }
+      ]
      },
      {
       "Id": "1853520656",
@@ -126,124 +281,19 @@
       ]
      },
      {
-      "Id": "3139624989",
-      "Name": "I_Problem_List_Add",
-      "ObjectPath": "\\Events\\Default Work Unit\\I_Problem_List_Add",
-      "GUID": "{40E21DBD-CB03-4316-A4C7-4DBD396A4506}",
-      "Color": "19",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "2081004676",
-      "Name": "I_Problem_List_Remove",
-      "ObjectPath": "\\Events\\Default Work Unit\\I_Problem_List_Remove",
-      "GUID": "{1E7DC09B-F966-4480-B312-C7A2089F4C8B}",
-      "Color": "19",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "3725903807",
-      "Name": "Music_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music_Start",
-      "GUID": "{780DA99B-CC13-4CE3-921E-EFDC69BE9B73}",
-      "Color": "24",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "3227181061",
-      "Name": "Music_Stop",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music_Stop",
-      "GUID": "{15A7A69E-6585-4392-8D43-DAFC7B5F116D}",
-      "Color": "24",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
       "Id": "3709676093",
       "Name": "NPC_Enter",
       "ObjectPath": "\\Events\\Default Work Unit\\NPC_Enter",
       "GUID": "{4068AE54-83B8-442E-AF58-79A5E17A36DB}",
       "Color": "4",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "4023606685",
-      "Name": "NPC_Lower_Class",
-      "ObjectPath": "\\Events\\Default Work Unit\\NPC_Lower_Class",
-      "GUID": "{FBB968AD-1E94-4CBA-97BF-78231FD05071}",
-      "Color": "4",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "148726199",
-      "Name": "NPC_Middle_Class",
-      "ObjectPath": "\\Events\\Default Work Unit\\NPC_Middle_Class",
-      "GUID": "{08B623F0-98F4-49B7-B252-AD6573C223D3}",
-      "Color": "4",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "1861785578",
-      "Name": "NPC_Upper_Class",
-      "ObjectPath": "\\Events\\Default Work Unit\\NPC_Upper_Class",
-      "GUID": "{5A9799C6-ACAB-4DDF-8A5A-76EC58137328}",
-      "Color": "4",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "4101012249",
-      "Name": "P_Minigame_Negative",
-      "ObjectPath": "\\Events\\Default Work Unit\\P_Minigame_Negative",
-      "GUID": "{EF36A27C-368D-44C1-9E70-6F81F60D2681}",
-      "Color": "10",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "3607652757",
-      "Name": "P_Minigame_Positive",
-      "ObjectPath": "\\Events\\Default Work Unit\\P_Minigame_Positive",
-      "GUID": "{1E98823C-9034-4C74-A5D0-9DA57761D6DE}",
-      "Color": "10",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "2490851117",
-      "Name": "P_Scribing",
-      "ObjectPath": "\\Events\\Default Work Unit\\P_Scribing",
-      "GUID": "{B8A86356-8884-41F0-91E5-E2E4C432C2F9}",
-      "Color": "10",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.93750566",
+      "DurationMax": "0.93750566",
+      "MediaRefs": [
+       {
+        "Id": "544666405"
+       }
+      ]
      },
      {
       "Id": "202626413",
@@ -251,10 +301,20 @@
       "ObjectPath": "\\Events\\Default Work Unit\\P_Sticker_Drop",
       "GUID": "{154FBB5E-CB25-4E5A-ACA0-EB193170C636}",
       "Color": "10",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.4971202",
+      "DurationMax": "0.5028965",
+      "MediaRefs": [
+       {
+        "Id": "635631202"
+       },
+       {
+        "Id": "635699237"
+       },
+       {
+        "Id": "935482776"
+       }
+      ]
      },
      {
       "Id": "2613498745",
@@ -262,30 +322,20 @@
       "ObjectPath": "\\Events\\Default Work Unit\\P_Sticker_Lift",
       "GUID": "{4F87F5C4-CB52-4F79-851D-8F04CB10234E}",
       "Color": "10",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "3646868397",
-      "Name": "P_Stitch",
-      "ObjectPath": "\\Events\\Default Work Unit\\P_Stitch",
-      "GUID": "{886496D2-B457-42AD-A33E-E6E7331BEFD6}",
-      "Color": "10",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "2048845667",
-      "Name": "P_Vellum",
-      "ObjectPath": "\\Events\\Default Work Unit\\P_Vellum",
-      "GUID": "{D75B3482-9F9D-404E-845D-40CD01958B47}",
-      "Color": "10",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.23011817",
+      "DurationMax": "0.25144824",
+      "MediaRefs": [
+       {
+        "Id": "100939464"
+       },
+       {
+        "Id": "558145021"
+       },
+       {
+        "Id": "760106271"
+       }
+      ]
      },
      {
       "Id": "1664509575",
@@ -309,8 +359,19 @@
       "GUID": "{D2D02C1D-77E0-494D-9E03-383A936C0856}",
       "Color": "14",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.86997163",
+      "DurationMax": "1.005793",
+      "MediaRefs": [
+       {
+        "Id": "123926229"
+       },
+       {
+        "Id": "416566881"
+       },
+       {
+        "Id": "727930976"
+       }
+      ]
      },
      {
       "Id": "4051801730",
@@ -319,8 +380,22 @@
       "GUID": "{086C0AF1-CF07-40D3-8317-464B7D7488E3}",
       "Color": "14",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.74568033",
+      "DurationMax": "0.7543447",
+      "MediaRefs": [
+       {
+        "Id": "481392785"
+       },
+       {
+        "Id": "762203785"
+       },
+       {
+        "Id": "995998436"
+       },
+       {
+        "Id": "1002890941"
+       }
+      ]
      },
      {
       "Id": "2052289800",
@@ -329,12 +404,17 @@
       "GUID": "{E955C2F4-A551-4868-BFED-413C8E4FB388}",
       "Color": "14",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.1128503",
+      "DurationMax": "1.125781",
+      "MediaRefs": [
+       {
+        "Id": "793399668"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{A0755B15-E13C-73DB-DB3B-5BC334350948}"
+  "FileHash": "{D9A89364-E07D-3CDB-2A09-C854263C17FD}"
  }
 }

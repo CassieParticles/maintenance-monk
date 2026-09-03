@@ -8,6 +8,8 @@ namespace GameObjects.ProblemList
 {
     public class ProblemListPopulator : MonoBehaviour
     {
+        [SerializeField] AK.Wwise.Event npcEnter;
+
         [SerializeField] private ProblemGroup group;
         [SerializeField] private float spawnRate = 5;
         [SerializeField] private Person.Person personPrefab;
@@ -34,6 +36,7 @@ namespace GameObjects.ProblemList
             {
                 Person.Person person = Instantiate(personPrefab,FindAnyObjectByType<Canvas>().transform);
                 person.SetUpPerson(group.GetRandomProblem());
+                npcEnter.Post(gameObject);
             }
             
             StartCoroutine(SpawnCoroutine());

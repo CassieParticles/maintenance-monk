@@ -10,12 +10,411 @@
     "Type": "User",
     "GUID": "{9EFA507F-FEE5-47F9-9659-9946586A637F}",
     "Language": "SFX",
-    "Hash": "{71F9CEB8-45DE-23D7-AC26-882EA609EB7A}",
+    "Hash": "{AC5A9156-F7BD-A9D9-4D4A-D28B7C63C7C1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
-    "Path": "main.bnk"
+    "Path": "main.bnk",
+    "Media": [
+     {
+      "Id": "94704057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Frozen_2.wav",
+      "CachePath": "A5/{A5D4C7E4-9488-DE07-49DC-05FB6BED3767}.wem"
+     },
+     {
+      "Id": "100939464",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Lift_3.wav",
+      "CachePath": "BC/{BC1F3687-7A30-8261-848B-D73722F08545}.wem"
+     },
+     {
+      "Id": "123926229",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Group_1.wav",
+      "CachePath": "FB/{FBC5D7B1-24A5-F091-E03C-06ECD1181C16}.wem"
+     },
+     {
+      "Id": "248013631",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Next_Stage_3.wav",
+      "CachePath": "A5/{A5D90ACB-4880-BF6D-C9F8-C89E1599E082}.wem"
+     },
+     {
+      "Id": "273534852",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Unfrozen_3.wav",
+      "CachePath": "1E/{1E02B3DC-3A93-41FD-445D-CB052F9F89A4}.wem"
+     },
+     {
+      "Id": "275988314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Frozen_1.wav",
+      "CachePath": "46/{46CBAF68-FCCD-4D70-4C20-7B62E01A0636}.wem"
+     },
+     {
+      "Id": "316405668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Button_Click.wav",
+      "CachePath": "82/{821D61AD-4963-CC47-56E7-73C31FB27CA4}.wem"
+     },
+     {
+      "Id": "416566881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Group_3.wav",
+      "CachePath": "DB/{DB6A0B51-C53D-F1AD-9079-75F95A621F69}.wem"
+     },
+     {
+      "Id": "449653212",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Next_Stage_2.wav",
+      "CachePath": "22/{227851C7-9802-F7B6-29F8-078E2AE7B27A}.wem"
+     },
+     {
+      "Id": "481392785",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Single_1.wav",
+      "CachePath": "4A/{4AC9BDD6-204F-77B7-FE6C-56000A718F76}.wem"
+     },
+     {
+      "Id": "514805342",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Unfrozen_1.wav",
+      "CachePath": "4A/{4A51BAF8-DF4C-252E-FB83-2CB49EA5A389}.wem"
+     },
+     {
+      "Id": "544666405",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_NPC_Enter.wav",
+      "CachePath": "72/{7235F12C-AA15-5AAB-43DC-01D22135D233}.wem"
+     },
+     {
+      "Id": "558145021",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Lift_1.wav",
+      "CachePath": "55/{55A06827-4168-5239-CA1C-05B086907558}.wem"
+     },
+     {
+      "Id": "635631202",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Drop_2.wav",
+      "CachePath": "3A/{3AB7FFE7-7FD7-F757-7ED3-38778B165A27}.wem"
+     },
+     {
+      "Id": "635699237",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Drop_3.wav",
+      "CachePath": "93/{93C67A70-EDBD-93C0-8D83-A53D29AF7F4F}.wem"
+     },
+     {
+      "Id": "649327940",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Unfrozen_2.wav",
+      "CachePath": "19/{199FFCC4-5C9A-44C6-2520-C7BFCFC0D3F1}.wem"
+     },
+     {
+      "Id": "727930976",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Group_2.wav",
+      "CachePath": "E8/{E838D5A6-4B9A-3889-AED4-5586B754B8D1}.wem"
+     },
+     {
+      "Id": "760106271",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Lift_2.wav",
+      "CachePath": "31/{31BF9FE1-1E1D-90DA-5FC9-0635372BF9C6}.wem"
+     },
+     {
+      "Id": "762203785",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Single_2.wav",
+      "CachePath": "0A/{0A77FD8E-2EA5-263D-E636-2FE8207CC877}.wem"
+     },
+     {
+      "Id": "793399668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Shop_Purchase.wav",
+      "CachePath": "87/{8758F812-4187-7E0A-27A1-9D04776B4534}.wem"
+     },
+     {
+      "Id": "935482776",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "P_Sticker_Drop_1.wav",
+      "CachePath": "DA/{DAC8165E-3876-1AEC-A505-D6CCEC498D26}.wem"
+     },
+     {
+      "Id": "967115806",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Frozen_3.wav",
+      "CachePath": "00/{00B8E3A5-2295-36BE-6545-CD28D3DB509A}.wem"
+     },
+     {
+      "Id": "978734812",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "I_Clock_Next_Stage_1.wav",
+      "CachePath": "73/{73D971AF-4976-5257-A6E7-02F66FD68E46}.wem"
+     },
+     {
+      "Id": "995998436",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Single_3.wav",
+      "CachePath": "CE/{CE176345-8EDD-F284-EECE-2B7543B899A7}.wem"
+     },
+     {
+      "Id": "1002890941",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Page_Turn_Single_4.wav",
+      "CachePath": "34/{34503D35-EE8C-2091-3FE2-DFE54DFC1C1A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1038526906",
+      "Name": "I_Clock_Frozen",
+      "ObjectPath": "\\Events\\Default Work Unit\\I_Clock_Frozen",
+      "GUID": "{19A5809E-3BA5-4579-B5D9-2F3155A541E0}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9884808",
+      "DurationMax": "2.263034",
+      "MediaRefs": [
+       {
+        "Id": "94704057"
+       },
+       {
+        "Id": "275988314"
+       },
+       {
+        "Id": "967115806"
+       }
+      ]
+     },
+     {
+      "Id": "1853520656",
+      "Name": "I_Clock_Next_Stage",
+      "ObjectPath": "\\Events\\Default Work Unit\\I_Clock_Next_Stage",
+      "GUID": "{5123953F-B43D-44FE-9CBE-6BB56D988870}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17891818",
+      "DurationMax": "0.22478674",
+      "MediaRefs": [
+       {
+        "Id": "248013631"
+       },
+       {
+        "Id": "449653212"
+       },
+       {
+        "Id": "978734812"
+       }
+      ]
+     },
+     {
+      "Id": "3323251731",
+      "Name": "I_Clock_Unfrozen",
+      "ObjectPath": "\\Events\\Default Work Unit\\I_Clock_Unfrozen",
+      "GUID": "{5FBE5F2E-6182-4C5C-8DFD-230CE15A3442}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.83781326",
+      "DurationMax": "1.1264881",
+      "MediaRefs": [
+       {
+        "Id": "273534852"
+       },
+       {
+        "Id": "514805342"
+       },
+       {
+        "Id": "649327940"
+       }
+      ]
+     },
+     {
+      "Id": "3709676093",
+      "Name": "NPC_Enter",
+      "ObjectPath": "\\Events\\Default Work Unit\\NPC_Enter",
+      "GUID": "{4068AE54-83B8-442E-AF58-79A5E17A36DB}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "0.93750566",
+      "DurationMax": "0.93750566",
+      "MediaRefs": [
+       {
+        "Id": "544666405"
+       }
+      ]
+     },
+     {
+      "Id": "202626413",
+      "Name": "P_Sticker_Drop",
+      "ObjectPath": "\\Events\\Default Work Unit\\P_Sticker_Drop",
+      "GUID": "{154FBB5E-CB25-4E5A-ACA0-EB193170C636}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4971202",
+      "DurationMax": "0.5028965",
+      "MediaRefs": [
+       {
+        "Id": "635631202"
+       },
+       {
+        "Id": "635699237"
+       },
+       {
+        "Id": "935482776"
+       }
+      ]
+     },
+     {
+      "Id": "2613498745",
+      "Name": "P_Sticker_Lift",
+      "ObjectPath": "\\Events\\Default Work Unit\\P_Sticker_Lift",
+      "GUID": "{4F87F5C4-CB52-4F79-851D-8F04CB10234E}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23011817",
+      "DurationMax": "0.25144824",
+      "MediaRefs": [
+       {
+        "Id": "100939464"
+       },
+       {
+        "Id": "558145021"
+       },
+       {
+        "Id": "760106271"
+       }
+      ]
+     },
+     {
+      "Id": "1664509575",
+      "Name": "UI_Button_Click",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI_Button_Click",
+      "GUID": "{8B4EB427-E687-4D75-9075-FC6D595E62E3}",
+      "Color": "14",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0870363",
+      "DurationMax": "1.0996671",
+      "MediaRefs": [
+       {
+        "Id": "316405668"
+       }
+      ]
+     },
+     {
+      "Id": "3949245851",
+      "Name": "UI_Page_Turn_Group",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI_Page_Turn_Group",
+      "GUID": "{D2D02C1D-77E0-494D-9E03-383A936C0856}",
+      "Color": "14",
+      "DurationType": "OneShot",
+      "DurationMin": "0.86997163",
+      "DurationMax": "1.005793",
+      "MediaRefs": [
+       {
+        "Id": "123926229"
+       },
+       {
+        "Id": "416566881"
+       },
+       {
+        "Id": "727930976"
+       }
+      ]
+     },
+     {
+      "Id": "4051801730",
+      "Name": "UI_Page_Turn_Single",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI_Page_Turn_Single",
+      "GUID": "{086C0AF1-CF07-40D3-8317-464B7D7488E3}",
+      "Color": "14",
+      "DurationType": "OneShot",
+      "DurationMin": "0.74568033",
+      "DurationMax": "0.7543447",
+      "MediaRefs": [
+       {
+        "Id": "481392785"
+       },
+       {
+        "Id": "762203785"
+       },
+       {
+        "Id": "995998436"
+       },
+       {
+        "Id": "1002890941"
+       }
+      ]
+     },
+     {
+      "Id": "2052289800",
+      "Name": "UI_Shop_Purchase",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI_Shop_Purchase",
+      "GUID": "{E955C2F4-A551-4868-BFED-413C8E4FB388}",
+      "Color": "14",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1128503",
+      "DurationMax": "1.125781",
+      "MediaRefs": [
+       {
+        "Id": "793399668"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{D88B57A9-F4AF-3A7E-3FB9-B5B700A30796}"
+  "FileHash": "{458AF5D0-E90B-3C89-D839-059772D3E8D9}"
  }
 }

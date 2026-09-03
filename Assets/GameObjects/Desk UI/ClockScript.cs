@@ -8,6 +8,8 @@ public class ClockScript : MonoBehaviour
     [SerializeField] float DayLength = 180;
     float DayProgress = 0;
 
+    [SerializeField] AK.Wwise.Event clockNextStage;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -42,6 +44,7 @@ public class ClockScript : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         EndDay();
+        clockNextStage.Post(gameObject);
     }
 
     public void HideClock(bool hidden) {

@@ -8,6 +8,8 @@ namespace GameObjects.Tasks
 {
     public class Task : MonoBehaviour
     {
+        [SerializeField] AK.Wwise.Event pageTurnSingle;
+
         [SerializeField] private AccuracyCoinConversion coinConversion;
         [SerializeField] private AccuracyRepConversion repConversion;
         
@@ -57,6 +59,7 @@ namespace GameObjects.Tasks
         public void StartTask()
         {
             gameObject.SetActive(true);
+            pageTurnSingle.Post(gameObject);
             
             _currentPartIndex = 0;
             _parts[0].gameObject.SetActive(true);

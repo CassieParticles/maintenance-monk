@@ -6,6 +6,8 @@ namespace GameObjects.Minigame.MinigameParts.DragLines
 {
     public class NewMonoBehaviourScript : MonoBehaviour
     {
+        [SerializeField] AK.Wwise.Event penClick;
+
         private DraggableCursor _parentCursor;
         
         private void Awake()
@@ -16,6 +18,7 @@ namespace GameObjects.Minigame.MinigameParts.DragLines
         private void OnMouseDown()
         {
             _parentCursor.Selected = true;
+            penClick.Post(gameObject);
         }
 
         private void OnMouseUp()
