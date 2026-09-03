@@ -15,6 +15,7 @@ namespace GameObjects.Tasks.CompleteTaskScreen
         [SerializeField] private TextMeshProUGUI reputationDisplay;
 
         public bool MoveOn { get; private set; }
+        [NonSerialized]public bool IsOpen;
         
         private PlayerData _playerData;
 
@@ -34,6 +35,7 @@ namespace GameObjects.Tasks.CompleteTaskScreen
         public void StartScreen(TaskResults results)
         {
             MoveOn = false;
+            IsOpen = true;
             if (timeDisplay != null)
             {
                 int secondsNearest = (int)results.Time;

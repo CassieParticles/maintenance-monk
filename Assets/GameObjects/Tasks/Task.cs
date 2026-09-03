@@ -151,6 +151,8 @@ namespace GameObjects.Tasks
             }
             //Final part complete
             FinishTask();
+            
+            gameObject.SetActive(false);
         }
     }
 }
