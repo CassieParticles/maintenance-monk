@@ -1489,7 +1489,7 @@ MonoBehaviour:
   uiButtonClick:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: fd300e04cf2f7ee48a42a6b4f6d43df7, type: 2}
 --- !u!114 &944006446
 MonoBehaviour:
   m_ObjectHideFlags: 0
