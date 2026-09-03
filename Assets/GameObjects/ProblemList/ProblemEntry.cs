@@ -59,21 +59,21 @@ namespace GameObjects.ProblemList
             }
             
             //Task is complete
-            
-
-
-            
-            
-            //Handle display screen
             CompleteTaskScreenHandler completeScreen = FindAnyObjectByType<CompleteTaskScreenHandler>(FindObjectsInactive.Include);
-            if (completeScreen != null && !completeScreen.MoveOn)
+            if (completeScreen !=null && !completeScreen.IsOpen)
             {
                 completeScreen.StartScreen(_task.Score);
+            }
+            
+            //Handle display screen
+            if (completeScreen != null && !completeScreen.MoveOn)
+            {
                 return;
             }
             
             //Task is finished
             _task.CleanupTask();
+            completeScreen.IsOpen = false;
             GetComponentInParent<ProblemList>().RemoveTask(this);
             Destroy(_task.gameObject);
             Destroy(gameObject);
