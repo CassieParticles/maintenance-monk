@@ -16,4 +16,5 @@ MonoBehaviour:
   message: Father... I have naught to give, but I need praying for. *cough* I'm struck
     with illness and can't find work. Plea-*cough*... Please help me. I hope you'll
     accept this hymm, though it needs repaired.
-  taskPrefab: {fileID: 0}
+  personSprite: {fileID: 21300000, guid: b2d51279ac5ef594ab50de0f8a01d731, type: 3}
+  taskPrefab: {fileID: 4880402748191206504, guid: 686379234c7a8cd448421e13afad10e6, type: 3}

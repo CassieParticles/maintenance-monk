@@ -15,4 +15,5 @@ MonoBehaviour:
   title: Scribe
   message: Excellent week so far Father, I'd like to donate some of my family's land
     to the church If you don't mind copying this deed and praying for me.
-  taskPrefab: {fileID: 0}
+  personSprite: {fileID: 21300000, guid: 82b8dcc9450159b468fbaf435f66b825, type: 3}
+  taskPrefab: {fileID: 812231443571431526, guid: 1fe8925a6dc0605408d838dc3b96d462, type: 3}
