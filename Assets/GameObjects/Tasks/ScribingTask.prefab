@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Tasks.Parts.DrawLine.DrawLinePart
   distance: 10
-  cursorPrefab: {fileID: 0}
+  cursorPrefab: {fileID: 1740587269998018731, guid: 6ac1002a4d41ac04d874504fc3cbdb6f, type: 3}
   scoreChecks: 100
 --- !u!1 &4822880185244553403
 GameObject:
