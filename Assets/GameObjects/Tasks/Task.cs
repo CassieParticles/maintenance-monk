@@ -21,6 +21,9 @@ namespace GameObjects.Tasks
         private float _startTime;
         private float _endTime;
 
+        private int _coinsEarned;
+        private float _repEarned;
+
         //Return -1 when score is under play, return the cumulative score otherwise
         public TaskResults Score
         {
@@ -28,9 +31,9 @@ namespace GameObjects.Tasks
             {
                 if (_currentPartIndex >= 0)
                 {
-                    return new TaskResults(-1,-1);
+                    return new TaskResults(-1,-1,-1,-1);
                 }
-                return new TaskResults(_endTime - _startTime,_cumulativeScore /  _parts.Length); 
+                return new TaskResults(_endTime - _startTime,_cumulativeScore /  _parts.Length,_coinsEarned,_repEarned); 
             }
         }
 
@@ -88,7 +91,7 @@ namespace GameObjects.Tasks
                     continue;
                 }
                 //Give reward of score player reached
-                PlayerData.Instance.EarnCoins(coinConversion.coinRewards[i]);
+                PlayerData.Instance.EarnCoins(_coinsEarned = coinConversion.coinRewards[i]);
                 break;
             }
             
@@ -100,7 +103,7 @@ namespace GameObjects.Tasks
                     continue;
                 }
                 //Give reward of score player reached
-                PlayerData.Instance.EarnReputation(repConversion.repRewards[i]);
+                PlayerData.Instance.EarnReputation(_repEarned = repConversion.repRewards[i]);
                 break;
             }
         }
