@@ -66,75 +66,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="P_Scribing" ID="{B8A86356-8884-41F0-91E5-E2E4C432C2F9}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{4A6312E2-732C-47B6-A2B1-AF083412E008}" ShortID="302138609">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="P_Scribing" ID="{85A942D1-5579-40B0-BC8E-3EB472D68EDE}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="P_Stitch" ID="{886496D2-B457-42AD-A33E-E6E7331BEFD6}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{3465A415-79F0-4BFE-B9EC-43E8C8FDC0C4}" ShortID="120844930">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="P_Stitch" ID="{03E1E5B2-20B0-47E3-B2DB-9A64FC4A9A84}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="P_Vellum" ID="{D75B3482-9F9D-404E-845D-40CD01958B47}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{99A6EDAC-79D3-4C5D-9DD6-927D8AE9F439}" ShortID="590559631">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="P_Vellum" ID="{368F5BF2-F5FA-4E24-AB82-519DB9ACFCF2}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Music_Start" ID="{780DA99B-CC13-4CE3-921E-EFDC69BE9B73}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Event>
-				<Event Name="Music_Stop" ID="{15A7A69E-6585-4392-8D43-DAFC7B5F116D}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Event>
-				<Event Name="I_Problem_List_Add" ID="{40E21DBD-CB03-4316-A4C7-4DBD396A4506}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="19"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Event>
-				<Event Name="I_Problem_List_Remove" ID="{1E7DC09B-F966-4480-B312-C7A2089F4C8B}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="19"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Event>
 				<Event Name="I_Clock_Next_Stage" ID="{5123953F-B43D-44FE-9CBE-6BB56D988870}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="19"/>
@@ -185,48 +116,45 @@
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
-				</Event>
-				<Event Name="NPC_Upper_Class" ID="{5A9799C6-ACAB-4DDF-8A5A-76EC58137328}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="4"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Event>
-				<Event Name="NPC_Middle_Class" ID="{08B623F0-98F4-49B7-B252-AD6573C223D3}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="4"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Event>
-				<Event Name="NPC_Lower_Class" ID="{FBB968AD-1E94-4CBA-97BF-78231FD05071}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="4"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{E1BE5622-1A78-47DB-BE13-2D39B1C7FF36}" ShortID="692953669">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="I_NPC_Enter" ID="{B1C45028-69EE-4DD5-B83F-21287C26CFD8}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="P_Sticker_Lift" ID="{4F87F5C4-CB52-4F79-851D-8F04CB10234E}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{9AFD9F52-0AF4-4B21-8063-E2F2E5DEBE87}" ShortID="631590262">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_Sticker_Lift" ID="{EA479AEE-66EE-4B5D-8994-B51BE0375D63}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="P_Sticker_Drop" ID="{154FBB5E-CB25-4E5A-ACA0-EB193170C636}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
-				</Event>
-				<Event Name="P_Minigame_Positive" ID="{1E98823C-9034-4C74-A5D0-9DA57761D6DE}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Event>
-				<Event Name="P_Minigame_Negative" ID="{EF36A27C-368D-44C1-9E70-6F81F60D2681}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{C9D68BE7-9239-4BBD-8383-43BA86EB7234}" ShortID="933612438">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P_Sticker_Drop" ID="{9D78E7AC-522E-4853-A61C-947F43B58781}" WorkUnitID="{819EEE13-0974-44B0-A728-E4B431F2BD16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 			</ChildrenList>
 		</WorkUnit>
