@@ -83,7 +83,7 @@ namespace GameObjects.Tasks
             for (int i = 0; i < coinConversion.scoreThresholds.Count; i++)
             {
                 //Iterate until it finds a threshold that isn't met
-                if (coinConversion.scoreThresholds[i] > accuracy)
+                if (coinConversion.scoreThresholds[i] < accuracy)
                 {
                     continue;
                 }
@@ -95,7 +95,7 @@ namespace GameObjects.Tasks
             for (int i = 0; i < repConversion.scoreThresholds.Count; i++)
             {
                 //Iterate until it finds a threshold that isn't met
-                if (repConversion.scoreThresholds[i] > accuracy)
+                if (repConversion.scoreThresholds[i] < accuracy)
                 {
                     continue;
                 }

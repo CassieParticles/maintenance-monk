@@ -46,7 +46,7 @@ namespace GameObjects.Player
 
         public void EarnReputation(float reputation)
         {
-            Reputation = reputation;
+            Reputation += reputation;
         }
 
         public void TogglePause() {

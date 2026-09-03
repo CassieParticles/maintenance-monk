@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: StitchAccuracy
   m_EditorClassIdentifier: Assembly-CSharp::GameObjects.Player.AccuracyRepConversion
   scoreThresholds:
-  - 30
-  - 75
-  - 100
+  - 0.3
+  - 0.75
+  - 1
   repRewards:
   - 5
   - 10
