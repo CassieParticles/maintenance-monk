@@ -66,6 +66,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d233dd932f3d42f429dbaa36d92d02fe, type: 2}
-  group: {fileID: 11400000, guid: e37140252866b434f932a310d65a5df7, type: 2}
+  group: {fileID: 11400000, guid: 7d430f5d9ec12ac41b76ddbeaa1725c2, type: 2}
   spawnRate: 5
   personPrefab: {fileID: 5574569301453948814, guid: 99356b3f578503c4cbc463ada3f0d675, type: 3}
