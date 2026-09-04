@@ -7,10 +7,21 @@ namespace GameObjects.ProblemList.Problems
     public class ProblemGroup : ScriptableObject
     {
         public List<Problem> problems;
+
+        private int _previousIndex = -1;
         
         public Problem GetRandomProblem()
         {
-            return problems[Random.Range(0, problems.Count)];
+            int randomIndex = Random.Range(0, problems.Count);
+
+            if (randomIndex == _previousIndex)
+            {
+                randomIndex++;
+                randomIndex = randomIndex %  problems.Count;
+            }
+            _previousIndex = randomIndex;
+            
+            return problems[randomIndex];
         }
     }
 }
