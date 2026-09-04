@@ -19,6 +19,7 @@ public class SceneManagement : MonoBehaviour
 
     public void BackToMenu()
     {
+        Time.timeScale = 1;
         uiButtonClick.Post(gameObject);
         SceneManager.LoadSceneAsync(0);
     }
