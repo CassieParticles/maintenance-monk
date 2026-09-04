@@ -943,7 +943,6 @@ GameObject:
   - component: {fileID: 944006442}
   - component: {fileID: 944006441}
   - component: {fileID: 944006445}
-  - component: {fileID: 944006446}
   m_Layer: 5
   m_Name: MainMenuCanvas
   m_TagString: Untagged
@@ -1051,19 +1050,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: fd300e04cf2f7ee48a42a6b4f6d43df7, type: 2}
---- !u!114 &944006446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944006440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 342c8d220c8f40d479468bd14337613d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SettingsScript
-  SettingsObject: {fileID: 0}
 --- !u!1 &1033700857
 GameObject:
   m_ObjectHideFlags: 0
