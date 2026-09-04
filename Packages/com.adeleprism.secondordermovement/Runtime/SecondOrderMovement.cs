@@ -16,6 +16,11 @@ public class SecondOrderMovement<T>
     private SecondOrderDynamics<T> func;
 
     public T Update(float deltatime, T currentPos, T targetPos, T targetVelocity = default) {
+
+        if (Time.timeScale == 0 || Time.deltaTime == 0) {
+            return currentPos;
+        }
+
         //If values have changed, do setup
         if (func == null || frequency != f0 || zeta != z0 || response != r0) {
             InitFunction(currentPos);
