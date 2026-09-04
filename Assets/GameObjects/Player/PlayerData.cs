@@ -23,7 +23,6 @@ namespace GameObjects.Player
                 if (_instance == null)
                 {
                     _instance = new GameObject("PlayerData").AddComponent<PlayerData>();
-                    DontDestroyOnLoad(_instance.gameObject);
                 }
                 
                 return _instance;
